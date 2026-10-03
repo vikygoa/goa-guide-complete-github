@@ -1,0 +1,29 @@
+{
+  "app_name": "Goa Guide",
+  "ui": "Material 3-inspired light mobile UI",
+  "backend": "GitHub static JSON",
+  "last_verified": "2026-10-03",
+  "maps_search": "https://www.google.com/maps/search/?api=1&query={query}",
+  "maps_directions": "https://www.google.com/maps/dir/?api=1&destination={destination}",
+  "data_files": [
+    "data/beaches.json",
+    "data/places.json",
+    "data/temples.json",
+    "data/churches.json",
+    "data/forts.json",
+    "data/nature.json",
+    "data/museums.json",
+    "data/stays.json",
+    "data/food.json",
+    "data/transport.json",
+    "data/restaurants.json",
+    "data/rentals.json",
+    "data/emergency.json",
+    "data/rules.json",
+    "data/scams.json",
+    "data/near_me.json",
+    "data/nightlife.json",
+    "data/shopping.json",
+    "data/money.json"
+  ]
+}
