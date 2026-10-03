@@ -1,0 +1,171 @@
+{
+  "category": "rules",
+  "icon": "⚠️",
+  "title": "Important Tourist Rules",
+  "version": 3,
+  "last_updated": "2026-10-03",
+  "items": [
+    {
+      "id": "do-not-drive-on-beaches",
+      "name": "Do not drive on beaches",
+      "description": "Motor vehicles should not be driven onto beaches or restricted beach areas.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "rules"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Do not drive on beaches Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Do%20not%20drive%20on%20beaches%20Goa",
+      "safety": "Follow beach access and parking rules."
+    },
+    {
+      "id": "beach-alcohol-restrictions",
+      "name": "Beach alcohol restrictions",
+      "description": "Follow current local restrictions on alcohol consumption in prohibited public/beach areas.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "rules"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Beach alcohol restrictions Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Beach%20alcohol%20restrictions%20Goa",
+      "safety": "Check current Goa government/tourism notices."
+    },
+    {
+      "id": "no-littering",
+      "name": "No littering",
+      "description": "Use designated bins and do not leave plastic, glass or other waste on beaches or tourist sites.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "rules"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "No littering Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=No%20littering%20Goa",
+      "safety": "Keep Goa clean."
+    },
+    {
+      "id": "swimming-safety",
+      "name": "Swimming safety",
+      "description": "Follow lifeguard instructions and warning flags; avoid dangerous water conditions.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "rules"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Swimming safety Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Swimming%20safety%20Goa",
+      "safety": "Never ignore red-flag warnings."
+    },
+    {
+      "id": "do-not-drink-and-drive",
+      "name": "Do not drink and drive",
+      "description": "Driving under the influence creates legal and safety risks.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "rules"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Do not drink and drive Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Do%20not%20drink%20and%20drive%20Goa",
+      "safety": "Use an authorised transport option."
+    },
+    {
+      "id": "helmet-and-seatbelt",
+      "name": "Helmet and seatbelt",
+      "description": "Wear a helmet on two-wheelers and a seatbelt in cars; carry required documents.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "rules"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Helmet and seatbelt Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Helmet%20and%20seatbelt%20Goa",
+      "safety": "Follow traffic law."
+    },
+    {
+      "id": "no-illegal-drugs",
+      "name": "No illegal drugs",
+      "description": "Do not buy, possess or consume illegal substances.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "rules"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "No illegal drugs Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=No%20illegal%20drugs%20Goa",
+      "safety": "Report emergencies through appropriate authorities."
+    },
+    {
+      "id": "respect-religious-places",
+      "name": "Respect religious places",
+      "description": "Dress and behave respectfully at temples, churches and other religious sites.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "rules"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Respect religious places Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Respect%20religious%20places%20Goa",
+      "safety": "Observe local instructions."
+    },
+    {
+      "id": "noise-restrictions",
+      "name": "Noise restrictions",
+      "description": "Follow applicable noise-control and venue rules, particularly at night.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "rules"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Noise restrictions Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Noise%20restrictions%20Goa",
+      "safety": "Check current local restrictions."
+    },
+    {
+      "id": "no-cooking-where-prohibited",
+      "name": "No cooking where prohibited",
+      "description": "Do not light fires or cook in places where public authorities prohibit it.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "rules"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "No cooking where prohibited Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=No%20cooking%20where%20prohibited%20Goa",
+      "safety": "Use designated facilities."
+    }
+  ],
+  "source_references": [
+    "goa_tourism",
+    "goa_tourism_beaches",
+    "goa_tourism_temples",
+    "goa_tourism_churches",
+    "goa_tourism_forts",
+    "goa_tourism_museums",
+    "goa_tourism_fort_aguada",
+    "goa_government",
+    "goa_police",
+    "wikimedia_goa"
+  ]
+}

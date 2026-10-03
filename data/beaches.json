@@ -1,0 +1,329 @@
+{
+  "category": "beaches",
+  "icon": "🏖️",
+  "title": "Beaches",
+  "version": 3,
+  "last_updated": "2026-10-03",
+  "items": [
+    {
+      "id": "baga-beach",
+      "name": "Baga Beach",
+      "description": "Popular North Goa beach with a broad sandy shoreline and major tourist activity.",
+      "location": "Bardez, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Baga_Beach_Goa.JPG",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Baga_Beach_Goa.JPG",
+      "maps_query": "Baga Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Baga%20Beach%20Goa"
+    },
+    {
+      "id": "calangute-beach",
+      "name": "Calangute Beach",
+      "description": "Large North Goa beach and major tourism area.",
+      "location": "Calangute, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Calangute Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Calangute%20Beach%20Goa"
+    },
+    {
+      "id": "anjuna-beach",
+      "name": "Anjuna Beach",
+      "description": "North Goa beach known for its rocky shoreline and sunset views.",
+      "location": "Anjuna, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Anjuna Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Anjuna%20Beach%20Goa"
+    },
+    {
+      "id": "vagator-beach",
+      "name": "Vagator Beach",
+      "description": "Scenic beach below the Chapora area with laterite cliffs.",
+      "location": "Vagator, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Vagator Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Vagator%20Beach%20Goa"
+    },
+    {
+      "id": "morjim-beach",
+      "name": "Morjim Beach",
+      "description": "Long North Goa beach with a quieter coastal setting.",
+      "location": "Morjim, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Morjim Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Morjim%20Beach%20Goa"
+    },
+    {
+      "id": "arambol-beach",
+      "name": "Arambol Beach",
+      "description": "North Goa beach with a laid-back coastal atmosphere.",
+      "location": "Arambol, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Arambol Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Arambol%20Beach%20Goa"
+    },
+    {
+      "id": "ashwem-beach",
+      "name": "Ashwem Beach",
+      "description": "Long open beach in Pernem taluka.",
+      "location": "Ashwem, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Ashwem Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Ashwem%20Beach%20Goa"
+    },
+    {
+      "id": "mandrem-beach",
+      "name": "Mandrem Beach",
+      "description": "North Goa beach known for sandy stretches.",
+      "location": "Mandrem, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Mandrem Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mandrem%20Beach%20Goa"
+    },
+    {
+      "id": "candolim-beach",
+      "name": "Candolim Beach",
+      "description": "Popular beach south of Calangute, near Fort Aguada.",
+      "location": "Candolim, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Candolim Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Candolim%20Beach%20Goa"
+    },
+    {
+      "id": "sinquerim-beach",
+      "name": "Sinquerim Beach",
+      "description": "Beach beside the Fort Aguada peninsula.",
+      "location": "Sinquerim, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Sinquerim Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Sinquerim%20Beach%20Goa"
+    },
+    {
+      "id": "miramar-beach",
+      "name": "Miramar Beach",
+      "description": "Urban beach near Panaji at the mouth of the Mandovi River.",
+      "location": "Panaji, Central Goa",
+      "region": "Central",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Miramar Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Miramar%20Beach%20Goa"
+    },
+    {
+      "id": "dona-paula",
+      "name": "Dona Paula",
+      "description": "Coastal landmark and waterfront viewpoint near Panaji.",
+      "location": "Dona Paula, Central Goa",
+      "region": "Central",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Dona Paula Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Dona%20Paula%20Goa"
+    },
+    {
+      "id": "colva-beach",
+      "name": "Colva Beach",
+      "description": "Major South Goa beach with a long sandy shoreline.",
+      "location": "Colva, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Colva Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Colva%20Beach%20Goa"
+    },
+    {
+      "id": "benaulim-beach",
+      "name": "Benaulim Beach",
+      "description": "South Goa beach between Colva and Varca.",
+      "location": "Benaulim, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Benaulim Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Benaulim%20Beach%20Goa"
+    },
+    {
+      "id": "varca-beach",
+      "name": "Varca Beach",
+      "description": "South Goa beach with a broad sandy coastline.",
+      "location": "Varca, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Varca Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Varca%20Beach%20Goa"
+    },
+    {
+      "id": "cavelossim-beach",
+      "name": "Cavelossim Beach",
+      "description": "Beach near the Sal River and Cavelossim village.",
+      "location": "Cavelossim, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Cavelossim Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cavelossim%20Beach%20Goa"
+    },
+    {
+      "id": "mobor-beach",
+      "name": "Mobor Beach",
+      "description": "Southern coastal beach area around the Cavelossim-Mobor peninsula.",
+      "location": "Mobor, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Mobor Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mobor%20Beach%20Goa"
+    },
+    {
+      "id": "palolem-beach",
+      "name": "Palolem Beach",
+      "description": "South Goa beach with a curved bay.",
+      "location": "Palolem, Canacona, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Palolem Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Palolem%20Beach%20Goa"
+    },
+    {
+      "id": "agonda-beach",
+      "name": "Agonda Beach",
+      "description": "South Goa beach known for its long sandy bay.",
+      "location": "Agonda, Canacona, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Agonda Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Agonda%20Beach%20Goa"
+    },
+    {
+      "id": "patnem-beach",
+      "name": "Patnem Beach",
+      "description": "Smaller beach south of Palolem.",
+      "location": "Patnem, Canacona, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Patnem Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Patnem%20Beach%20Goa"
+    },
+    {
+      "id": "talpona-beach",
+      "name": "Talpona Beach",
+      "description": "Quiet southern beach near the Talpona River.",
+      "location": "Canacona, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Talpona Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Talpona%20Beach%20Goa"
+    },
+    {
+      "id": "galgibaga-beach",
+      "name": "Galgibaga Beach",
+      "description": "Southern beach known for a quieter setting and turtle conservation area.",
+      "location": "Canacona, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Galgibaga Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Galgibaga%20Beach%20Goa"
+    }
+  ],
+  "source_references": [
+    "goa_tourism",
+    "goa_tourism_beaches",
+    "goa_tourism_temples",
+    "goa_tourism_churches",
+    "goa_tourism_forts",
+    "goa_tourism_museums",
+    "goa_tourism_fort_aguada",
+    "goa_government",
+    "goa_police",
+    "wikimedia_goa"
+  ]
+}

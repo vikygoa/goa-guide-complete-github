@@ -1,0 +1,119 @@
+{
+  "category": "money",
+  "icon": "💰",
+  "title": "Money & Banking",
+  "version": 3,
+  "last_updated": "2026-10-03",
+  "items": [
+    {
+      "id": "atm-near-me",
+      "name": "ATM Near Me",
+      "description": "Find nearby ATMs using Google Maps.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "money"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "ATM near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=ATM%20near%20me"
+    },
+    {
+      "id": "currency-exchange-near-me",
+      "name": "Currency Exchange Near Me",
+      "description": "Find nearby currency exchange services; use authorised providers and ask for a receipt.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "money"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "currency exchange near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=currency%20exchange%20near%20me"
+    },
+    {
+      "id": "bank-near-me",
+      "name": "Bank Near Me",
+      "description": "Find nearby bank branches and ATMs.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "money"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "banks near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=banks%20near%20me"
+    },
+    {
+      "id": "upi",
+      "name": "UPI",
+      "description": "UPI is widely used in India. Never share your UPI PIN or OTP.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "money"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "UPI Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=UPI%20Goa"
+    },
+    {
+      "id": "cards",
+      "name": "Cards",
+      "description": "Cards may be accepted at many hotels, restaurants and shops, but carry some cash.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "money"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Cards Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cards%20Goa"
+    },
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "Keep reasonable cash for small purchases and locations with limited card/UPI acceptance.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "money"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Cash Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cash%20Goa"
+    },
+    {
+      "id": "foreign-currency",
+      "name": "Foreign Currency",
+      "description": "Use authorised money changers and verify the exchange rate and receipt.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "money"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Foreign Currency Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Foreign%20Currency%20Goa"
+    }
+  ],
+  "source_references": [
+    "goa_tourism",
+    "goa_tourism_beaches",
+    "goa_tourism_temples",
+    "goa_tourism_churches",
+    "goa_tourism_forts",
+    "goa_tourism_museums",
+    "goa_tourism_fort_aguada",
+    "goa_government",
+    "goa_police",
+    "wikimedia_goa"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "category": "rentals",
+  "icon": "🏍️",
+  "title": "Bike & Car Rental",
+  "version": 3,
+  "last_updated": "2026-10-03",
+  "items": [
+    {
+      "id": "rental-near-me",
+      "name": "Rental Near Me",
+      "description": "Open Google Maps for nearby bike and car rental listings.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "rental"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Rental Near Me Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Rental%20Near%20Me%20Goa"
+    },
+    {
+      "id": "north-goa-rental-areas",
+      "name": "North Goa Rental Areas",
+      "description": "Map search around Panaji, Porvorim, Mapusa, Candolim, Calangute, Baga, Anjuna, Vagator, Morjim, Arambol and Pernem.",
+      "location": "North Goa",
+      "region": "North",
+      "tags": [
+        "rental"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "North Goa Rental Areas Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=North%20Goa%20Rental%20Areas%20Goa"
+    },
+    {
+      "id": "central-goa-rental-areas",
+      "name": "Central Goa Rental Areas",
+      "description": "Map search around Panaji, Old Goa, Dona Paula, Bambolim and Ribandar.",
+      "location": "Central Goa",
+      "region": "Central",
+      "tags": [
+        "rental"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Central Goa Rental Areas Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Central%20Goa%20Rental%20Areas%20Goa"
+    },
+    {
+      "id": "south-goa-rental-areas",
+      "name": "South Goa Rental Areas",
+      "description": "Map search around Vasco, Dabolim, Margao, Colva, Benaulim, Varca, Cavelossim, Mobor, Palolem and Canacona.",
+      "location": "South Goa",
+      "region": "South",
+      "tags": [
+        "rental"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "South Goa Rental Areas Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=South%20Goa%20Rental%20Areas%20Goa"
+    },
+    {
+      "id": "before-you-take-the-vehicle",
+      "name": "Before You Take the Vehicle",
+      "description": "Check existing damage, tyres, brakes, lights, fuel/battery, documents, agreement, deposit and return conditions.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "rental"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Before You Take the Vehicle Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Before%20You%20Take%20the%20Vehicle%20Goa"
+    },
+    {
+      "id": "documents-required",
+      "name": "Documents Required",
+      "description": "Carry a valid driving licence and identification/documents requested by the rental provider.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "rental"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Documents Required Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Documents%20Required%20Goa"
+    },
+    {
+      "id": "rental-safety",
+      "name": "Rental Safety",
+      "description": "Wear a helmet, obey traffic rules, do not drink and drive, and do not hand the vehicle to another person unless permitted.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "rental"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Rental Safety Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Rental%20Safety%20Goa"
+    }
+  ],
+  "source_references": [
+    "goa_tourism",
+    "goa_tourism_beaches",
+    "goa_tourism_temples",
+    "goa_tourism_churches",
+    "goa_tourism_forts",
+    "goa_tourism_museums",
+    "goa_tourism_fort_aguada",
+    "goa_government",
+    "goa_police",
+    "wikimedia_goa"
+  ]
+}

@@ -1,0 +1,1201 @@
+{
+  "category": "places",
+  "icon": "📍",
+  "title": "Places to Visit",
+  "version": 3,
+  "last_updated": "2026-10-03",
+  "items": [
+    {
+      "id": "baga-beach",
+      "name": "Baga Beach",
+      "description": "Popular North Goa beach with a broad sandy shoreline and major tourist activity.",
+      "location": "Bardez, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Baga_Beach_Goa.JPG",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Baga_Beach_Goa.JPG",
+      "maps_query": "Baga Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Baga%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "calangute-beach",
+      "name": "Calangute Beach",
+      "description": "Large North Goa beach and major tourism area.",
+      "location": "Calangute, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Calangute Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Calangute%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "anjuna-beach",
+      "name": "Anjuna Beach",
+      "description": "North Goa beach known for its rocky shoreline and sunset views.",
+      "location": "Anjuna, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Anjuna Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Anjuna%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "vagator-beach",
+      "name": "Vagator Beach",
+      "description": "Scenic beach below the Chapora area with laterite cliffs.",
+      "location": "Vagator, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Vagator Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Vagator%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "morjim-beach",
+      "name": "Morjim Beach",
+      "description": "Long North Goa beach with a quieter coastal setting.",
+      "location": "Morjim, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Morjim Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Morjim%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "arambol-beach",
+      "name": "Arambol Beach",
+      "description": "North Goa beach with a laid-back coastal atmosphere.",
+      "location": "Arambol, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Arambol Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Arambol%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "ashwem-beach",
+      "name": "Ashwem Beach",
+      "description": "Long open beach in Pernem taluka.",
+      "location": "Ashwem, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Ashwem Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Ashwem%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "mandrem-beach",
+      "name": "Mandrem Beach",
+      "description": "North Goa beach known for sandy stretches.",
+      "location": "Mandrem, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Mandrem Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mandrem%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "candolim-beach",
+      "name": "Candolim Beach",
+      "description": "Popular beach south of Calangute, near Fort Aguada.",
+      "location": "Candolim, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Candolim Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Candolim%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "sinquerim-beach",
+      "name": "Sinquerim Beach",
+      "description": "Beach beside the Fort Aguada peninsula.",
+      "location": "Sinquerim, North Goa",
+      "region": "North",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Sinquerim Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Sinquerim%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "miramar-beach",
+      "name": "Miramar Beach",
+      "description": "Urban beach near Panaji at the mouth of the Mandovi River.",
+      "location": "Panaji, Central Goa",
+      "region": "Central",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Miramar Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Miramar%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "dona-paula",
+      "name": "Dona Paula",
+      "description": "Coastal landmark and waterfront viewpoint near Panaji.",
+      "location": "Dona Paula, Central Goa",
+      "region": "Central",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Dona Paula Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Dona%20Paula%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "colva-beach",
+      "name": "Colva Beach",
+      "description": "Major South Goa beach with a long sandy shoreline.",
+      "location": "Colva, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Colva Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Colva%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "benaulim-beach",
+      "name": "Benaulim Beach",
+      "description": "South Goa beach between Colva and Varca.",
+      "location": "Benaulim, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Benaulim Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Benaulim%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "varca-beach",
+      "name": "Varca Beach",
+      "description": "South Goa beach with a broad sandy coastline.",
+      "location": "Varca, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Varca Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Varca%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "cavelossim-beach",
+      "name": "Cavelossim Beach",
+      "description": "Beach near the Sal River and Cavelossim village.",
+      "location": "Cavelossim, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Cavelossim Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cavelossim%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "mobor-beach",
+      "name": "Mobor Beach",
+      "description": "Southern coastal beach area around the Cavelossim-Mobor peninsula.",
+      "location": "Mobor, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Mobor Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mobor%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "palolem-beach",
+      "name": "Palolem Beach",
+      "description": "South Goa beach with a curved bay.",
+      "location": "Palolem, Canacona, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Palolem Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Palolem%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "agonda-beach",
+      "name": "Agonda Beach",
+      "description": "South Goa beach known for its long sandy bay.",
+      "location": "Agonda, Canacona, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Agonda Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Agonda%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "patnem-beach",
+      "name": "Patnem Beach",
+      "description": "Smaller beach south of Palolem.",
+      "location": "Patnem, Canacona, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Patnem Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Patnem%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "talpona-beach",
+      "name": "Talpona Beach",
+      "description": "Quiet southern beach near the Talpona River.",
+      "location": "Canacona, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Talpona Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Talpona%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "galgibaga-beach",
+      "name": "Galgibaga Beach",
+      "description": "Southern beach known for a quieter setting and turtle conservation area.",
+      "location": "Canacona, South Goa",
+      "region": "South",
+      "tags": [
+        "beach"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Galgibaga Beach Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Galgibaga%20Beach%20Goa",
+      "category": "Beaches"
+    },
+    {
+      "id": "manguesh-temple",
+      "name": "Manguesh Temple",
+      "description": "Historic Hindu temple dedicated to Lord Shiva at Mardol.",
+      "location": "Mardol, Ponda, Goa",
+      "region": "Central",
+      "tags": [
+        "temple"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Manguesh Temple Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Manguesh%20Temple%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "shantadurga-temple",
+      "name": "Shantadurga Temple",
+      "description": "Temple dedicated to Goddess Shantadurga at Kavlem in Ponda taluka.",
+      "location": "Kavlem, Ponda, Goa",
+      "region": "Central",
+      "tags": [
+        "temple"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shantadurga_Temple%2C_North_Goa_District%2C_Goa.jpg",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Shantadurga_Temple%2C_North_Goa_District%2C_Goa.jpg",
+      "maps_query": "Shantadurga Temple Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Shantadurga%20Temple%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "mahalsa-temple-mardol",
+      "name": "Mahalsa Temple (Mardol)",
+      "description": "Temple dedicated to Goddess Mahalsa Narayani at Mardol.",
+      "location": "Mardol, Ponda, Goa",
+      "region": "Central",
+      "tags": [
+        "temple"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Mahalsa Temple (Mardol) Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mahalsa%20Temple%20%28Mardol%29%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "mahalaxmi-temple",
+      "name": "Mahalaxmi Temple",
+      "description": "Hindu temple dedicated to Goddess Mahalaxmi in Panaji.",
+      "location": "Panaji, Goa",
+      "region": "Central",
+      "tags": [
+        "temple"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Mahalaxmi Temple Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mahalaxmi%20Temple%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "mahadev-temple-tambdi-surla",
+      "name": "Mahadev Temple (Tambdi Surla)",
+      "description": "Historic Shiva temple in Goa's forested hinterland.",
+      "location": "Tambdi Surla, Goa",
+      "region": "Central",
+      "tags": [
+        "temple"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Mahadev Temple (Tambdi Surla) Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mahadev%20Temple%20%28Tambdi%20Surla%29%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "saptakoteshwar-temple",
+      "name": "Saptakoteshwar Temple",
+      "description": "Important Shiva temple at Narve.",
+      "location": "Narve, Goa",
+      "region": "Central",
+      "tags": [
+        "temple"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Saptakoteshwar Temple Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Saptakoteshwar%20Temple%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "kamakshi-saunsthan-temple",
+      "name": "Kamakshi Saunsthan Temple",
+      "description": "Temple dedicated to Goddess Kamakshi at Shiroda.",
+      "location": "Shiroda, Ponda, Goa",
+      "region": "Central",
+      "tags": [
+        "temple"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Kamakshi Saunsthan Temple Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kamakshi%20Saunsthan%20Temple%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "gopal-ganapati-temple",
+      "name": "Gopal Ganapati Temple",
+      "description": "Temple at Farmagudi dedicated to Lord Ganesha.",
+      "location": "Farmagudi, Ponda, Goa",
+      "region": "Central",
+      "tags": [
+        "temple"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Gopal Ganapati Temple Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Gopal%20Ganapati%20Temple%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "ramnath-temple-ramnathi",
+      "name": "Ramnath Temple (Ramnathi)",
+      "description": "Temple complex dedicated to Lord Ramnath in Ponda taluka.",
+      "location": "Ramnathi, Ponda, Goa",
+      "region": "Central",
+      "tags": [
+        "temple"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Ramnath Temple (Ramnathi) Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Ramnath%20Temple%20%28Ramnathi%29%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "brahma-temple",
+      "name": "Brahma Temple",
+      "description": "Historic temple dedicated to Lord Brahma at Carambolim.",
+      "location": "Carambolim, Goa",
+      "region": "Central",
+      "tags": [
+        "temple"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Brahma Temple Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Brahma%20Temple%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "shri-chandranath-temple",
+      "name": "Shri Chandranath Temple",
+      "description": "Hilltop temple dedicated to Lord Chandranath.",
+      "location": "Paroda, Quepem, South Goa",
+      "region": "South",
+      "tags": [
+        "temple"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Shri Chandranath Temple Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Shri%20Chandranath%20Temple%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "shri-datta-mandir",
+      "name": "Shri Datta Mandir",
+      "description": "Temple associated with Lord Dattatreya.",
+      "location": "Goa",
+      "region": "Central",
+      "tags": [
+        "temple"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Shri Datta Mandir Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Shri%20Datta%20Mandir%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "navdurga-saunsthan",
+      "name": "Navdurga Saunsthan",
+      "description": "Temple dedicated to Goddess Navdurga.",
+      "location": "Goa",
+      "region": "Central",
+      "tags": [
+        "temple"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Navdurga Saunsthan Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Navdurga%20Saunsthan%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "rudreshwar-temple",
+      "name": "Rudreshwar Temple",
+      "description": "Temple dedicated to Lord Shiva near Harvalem.",
+      "location": "Harvalem, Goa",
+      "region": "Central",
+      "tags": [
+        "temple"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Rudreshwar Temple Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Rudreshwar%20Temple%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "lairai-mandir",
+      "name": "Lairai Mandir",
+      "description": "Temple dedicated to Goddess Lairai at Shirgao.",
+      "location": "Shirgao, North Goa",
+      "region": "North",
+      "tags": [
+        "temple"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Lairai Mandir Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Lairai%20Mandir%20Goa",
+      "category": "Hindu Temples"
+    },
+    {
+      "id": "basilica-of-bom-jesus",
+      "name": "Basilica of Bom Jesus",
+      "description": "Historic church in Old Goa and part of the UNESCO World Heritage complex.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilica_Of_Bom_Jesus%2C_Goa.jpg",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Basilica_Of_Bom_Jesus%2C_Goa.jpg",
+      "maps_query": "Basilica of Bom Jesus Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Basilica%20of%20Bom%20Jesus%20Goa",
+      "category": "Churches"
+    },
+    {
+      "id": "se-cathedral",
+      "name": "Se Cathedral",
+      "description": "Historic cathedral in Old Goa and part of the UNESCO World Heritage complex.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Se_Cathedral%2Cgoa.jpg",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Se_Cathedral%2Cgoa.jpg",
+      "maps_query": "Se Cathedral Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Se%20Cathedral%20Goa",
+      "category": "Churches"
+    },
+    {
+      "id": "church-of-st-francis-of-assisi",
+      "name": "Church of St. Francis of Assisi",
+      "description": "Historic church beside Se Cathedral in Old Goa.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Church of St. Francis of Assisi Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Church%20of%20St.%20Francis%20of%20Assisi%20Goa",
+      "category": "Churches"
+    },
+    {
+      "id": "st-cajetan-s-church",
+      "name": "St. Cajetan's Church",
+      "description": "Historic church in Old Goa with Renaissance-inspired architecture.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "St. Cajetan's Church Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=St.%20Cajetan%27s%20Church%20Goa",
+      "category": "Churches"
+    },
+    {
+      "id": "our-lady-of-immaculate-conception",
+      "name": "Our Lady of Immaculate Conception",
+      "description": "Landmark church overlooking Panaji.",
+      "location": "Panaji",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Our Lady of Immaculate Conception Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Our%20Lady%20of%20Immaculate%20Conception%20Goa",
+      "category": "Churches"
+    },
+    {
+      "id": "mae-de-deus-church",
+      "name": "Mae de Deus Church",
+      "description": "Distinctive church in Saligao, North Goa.",
+      "location": "Saligao",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Mae de Deus Church Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mae%20de%20Deus%20Church%20Goa",
+      "category": "Churches"
+    },
+    {
+      "id": "church-of-our-lady-of-rosary",
+      "name": "Church of Our Lady of Rosary",
+      "description": "Historic church in the Old Goa heritage area.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Church of Our Lady of Rosary Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Church%20of%20Our%20Lady%20of%20Rosary%20Goa",
+      "category": "Churches"
+    },
+    {
+      "id": "church-of-st-ana",
+      "name": "Church of St. Ana",
+      "description": "Historic church at Talaulim.",
+      "location": "Talaulim",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Church of St. Ana Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Church%20of%20St.%20Ana%20Goa",
+      "category": "Churches"
+    },
+    {
+      "id": "church-of-santa-monica",
+      "name": "Church of Santa Monica",
+      "description": "Historic church/nunnery complex in Old Goa.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Church of Santa Monica Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Church%20of%20Santa%20Monica%20Goa",
+      "category": "Churches"
+    },
+    {
+      "id": "rachol-seminary",
+      "name": "Rachol Seminary",
+      "description": "Historic seminary complex near Rachol.",
+      "location": "Rachol, South Goa",
+      "region": "South",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Rachol Seminary Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Rachol%20Seminary%20Goa",
+      "category": "Churches"
+    },
+    {
+      "id": "reis-magos-church",
+      "name": "Reis Magos Church",
+      "description": "Historic church in Reis Magos overlooking the Mandovi.",
+      "location": "Reis Magos",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Reis Magos Church Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Reis%20Magos%20Church%20Goa",
+      "category": "Churches"
+    },
+    {
+      "id": "ruins-of-st-augustine",
+      "name": "Ruins of St. Augustine",
+      "description": "Remains of the former Augustinian complex at Old Goa.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Ruins of St. Augustine Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruins%20of%20St.%20Augustine%20Goa",
+      "category": "Churches"
+    },
+    {
+      "id": "chapel-of-our-lady-of-the-mount",
+      "name": "Chapel of Our Lady of the Mount",
+      "description": "Historic chapel on a hill overlooking Old Goa.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Chapel of Our Lady of the Mount Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Chapel%20of%20Our%20Lady%20of%20the%20Mount%20Goa",
+      "category": "Churches"
+    },
+    {
+      "id": "fort-aguada",
+      "name": "Fort Aguada",
+      "description": "Seventeenth-century Portuguese fort on the Sinquerim/Candolim peninsula. GTDC currently lists visitor hours of 9:30 AM–6:00 PM.",
+      "location": "Candolim/Sinquerim",
+      "region": "North",
+      "tags": [
+        "fort"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/FortAguada.jpg",
+      "image_source": "https://commons.wikimedia.org/wiki/File:FortAguada.jpg",
+      "maps_query": "Fort Aguada Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Fort%20Aguada%20Goa",
+      "category": "Forts"
+    },
+    {
+      "id": "chapora-fort",
+      "name": "Chapora Fort",
+      "description": "Historic fort above the Chapora River with wide coastal views.",
+      "location": "Chapora/Vagator",
+      "region": "North",
+      "tags": [
+        "fort"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapora_Fort_GOA.jpg",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Chapora_Fort_GOA.jpg",
+      "maps_query": "Chapora Fort Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Chapora%20Fort%20Goa",
+      "category": "Forts"
+    },
+    {
+      "id": "reis-magos-fort",
+      "name": "Reis Magos Fort",
+      "description": "Historic fort overlooking the Mandovi River near Reis Magos.",
+      "location": "Reis Magos",
+      "region": "North",
+      "tags": [
+        "fort"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Reis Magos Fort Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Reis%20Magos%20Fort%20Goa",
+      "category": "Forts"
+    },
+    {
+      "id": "cabo-de-rama-fort",
+      "name": "Cabo de Rama Fort",
+      "description": "Historic coastal fort on a headland in South Goa.",
+      "location": "Canacona, South Goa",
+      "region": "South",
+      "tags": [
+        "fort"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Cabo de Rama Fort Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cabo%20de%20Rama%20Fort%20Goa",
+      "category": "Forts"
+    },
+    {
+      "id": "corjuem-fort",
+      "name": "Corjuem Fort",
+      "description": "Small historic fortification in the Corjuem area.",
+      "location": "Corjuem, North Goa",
+      "region": "North",
+      "tags": [
+        "fort"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Corjuem Fort Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Corjuem%20Fort%20Goa",
+      "category": "Forts"
+    },
+    {
+      "id": "fort-tiracol",
+      "name": "Fort Tiracol",
+      "description": "Historic fort at the northern edge of Goa.",
+      "location": "Tiracol, North Goa",
+      "region": "North",
+      "tags": [
+        "fort"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Fort Tiracol Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Fort%20Tiracol%20Goa",
+      "category": "Forts"
+    },
+    {
+      "id": "rachol-fort",
+      "name": "Rachol Fort",
+      "description": "Historic fort site near Rachol.",
+      "location": "Rachol, South Goa",
+      "region": "South",
+      "tags": [
+        "fort"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Rachol Fort Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Rachol%20Fort%20Goa",
+      "category": "Forts"
+    },
+    {
+      "id": "betul-fort",
+      "name": "Betul Fort",
+      "description": "Historic fortification near Betul.",
+      "location": "Betul, South Goa",
+      "region": "South",
+      "tags": [
+        "fort"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Betul Fort Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Betul%20Fort%20Goa",
+      "category": "Forts"
+    },
+    {
+      "id": "mormugao-fort",
+      "name": "Mormugao Fort",
+      "description": "Historic fortification associated with Mormugao harbour.",
+      "location": "Mormugao",
+      "region": "South",
+      "tags": [
+        "fort"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Mormugao Fort Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mormugao%20Fort%20Goa",
+      "category": "Forts"
+    },
+    {
+      "id": "dudhsagar-falls",
+      "name": "Dudhsagar Falls",
+      "description": "Four-tiered waterfall on the Goa-Karnataka border in the Western Ghats landscape.",
+      "location": "Mollem/Collem",
+      "region": "South",
+      "tags": [
+        "nature",
+        "wildlife"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dudhsagar_Falls%2C_Goa.jpg",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Dudhsagar_Falls%2C_Goa.jpg",
+      "maps_query": "Dudhsagar Falls Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Dudhsagar%20Falls%20Goa",
+      "category": "Waterfalls & Wildlife"
+    },
+    {
+      "id": "arvalem-waterfall",
+      "name": "Arvalem Waterfall",
+      "description": "Waterfall near Harvalem and the surrounding cave area.",
+      "location": "Sanquelim/Bicholim",
+      "region": "North",
+      "tags": [
+        "nature",
+        "wildlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Arvalem Waterfall Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Arvalem%20Waterfall%20Goa",
+      "category": "Waterfalls & Wildlife"
+    },
+    {
+      "id": "kesarval-spring",
+      "name": "Kesarval Spring",
+      "description": "Natural spring area in Cortalim.",
+      "location": "Cortalim",
+      "region": "Central",
+      "tags": [
+        "nature",
+        "wildlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Kesarval Spring Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kesarval%20Spring%20Goa",
+      "category": "Waterfalls & Wildlife"
+    },
+    {
+      "id": "chapoli-dam",
+      "name": "Chapoli Dam",
+      "description": "Reservoir and scenic inland destination in Canacona.",
+      "location": "Canacona",
+      "region": "South",
+      "tags": [
+        "nature",
+        "wildlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Chapoli Dam Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Chapoli%20Dam%20Goa",
+      "category": "Waterfalls & Wildlife"
+    },
+    {
+      "id": "netravali-wildlife-sanctuary",
+      "name": "Netravali Wildlife Sanctuary",
+      "description": "Protected forest landscape in South Goa.",
+      "location": "Netravali",
+      "region": "South",
+      "tags": [
+        "nature",
+        "wildlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Netravali Wildlife Sanctuary Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Netravali%20Wildlife%20Sanctuary%20Goa",
+      "category": "Waterfalls & Wildlife"
+    },
+    {
+      "id": "bhagwan-mahavir-wildlife-sanctuary",
+      "name": "Bhagwan Mahavir Wildlife Sanctuary",
+      "description": "Large protected forest area in eastern Goa.",
+      "location": "Mollem",
+      "region": "South",
+      "tags": [
+        "nature",
+        "wildlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Bhagwan Mahavir Wildlife Sanctuary Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Bhagwan%20Mahavir%20Wildlife%20Sanctuary%20Goa",
+      "category": "Waterfalls & Wildlife"
+    },
+    {
+      "id": "mollem-national-park",
+      "name": "Mollem National Park",
+      "description": "National park in Goa's Western Ghats landscape.",
+      "location": "Mollem",
+      "region": "South",
+      "tags": [
+        "nature",
+        "wildlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Mollem National Park Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mollem%20National%20Park%20Goa",
+      "category": "Waterfalls & Wildlife"
+    },
+    {
+      "id": "bondla-wildlife-sanctuary",
+      "name": "Bondla Wildlife Sanctuary",
+      "description": "Wildlife sanctuary and nature destination in the foothills.",
+      "location": "Bondla",
+      "region": "Central",
+      "tags": [
+        "nature",
+        "wildlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Bondla Wildlife Sanctuary Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Bondla%20Wildlife%20Sanctuary%20Goa",
+      "category": "Waterfalls & Wildlife"
+    },
+    {
+      "id": "cotigao-wildlife-sanctuary",
+      "name": "Cotigao Wildlife Sanctuary",
+      "description": "Protected forest area in southern Goa.",
+      "location": "Canacona",
+      "region": "South",
+      "tags": [
+        "nature",
+        "wildlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Cotigao Wildlife Sanctuary Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cotigao%20Wildlife%20Sanctuary%20Goa",
+      "category": "Waterfalls & Wildlife"
+    },
+    {
+      "id": "dr-salim-ali-bird-sanctuary",
+      "name": "Dr. Salim Ali Bird Sanctuary",
+      "description": "Mangrove and bird habitat on Chorao island.",
+      "location": "Chorao",
+      "region": "Central",
+      "tags": [
+        "nature",
+        "wildlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Dr. Salim Ali Bird Sanctuary Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Dr.%20Salim%20Ali%20Bird%20Sanctuary%20Goa",
+      "category": "Waterfalls & Wildlife"
+    },
+    {
+      "id": "goa-state-museum",
+      "name": "Goa State Museum",
+      "description": "State museum with collections relating to Goa's art, history and heritage.",
+      "location": "Panaji",
+      "region": "Central",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Goa State Museum Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Goa%20State%20Museum%20Goa",
+      "category": "Museums & Heritage"
+    },
+    {
+      "id": "goa-chitra-museum",
+      "name": "Goa Chitra Museum",
+      "description": "Museum focused on Goan agrarian and material culture.",
+      "location": "Benaulim",
+      "region": "South",
+      "tags": [
+        "museum"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Goa_Chitra_Museum.jpg",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Goa_Chitra_Museum.jpg",
+      "maps_query": "Goa Chitra Museum Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Goa%20Chitra%20Museum%20Goa",
+      "category": "Museums & Heritage"
+    },
+    {
+      "id": "museum-of-christian-art",
+      "name": "Museum of Christian Art",
+      "description": "Museum in Old Goa with a collection of Christian art.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Museum of Christian Art Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Christian%20Art%20Goa",
+      "category": "Museums & Heritage"
+    },
+    {
+      "id": "naval-aviation-museum",
+      "name": "Naval Aviation Museum",
+      "description": "Museum near Dabolim/Vasco displaying Indian naval aviation heritage.",
+      "location": "Bogmalo",
+      "region": "South",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Naval Aviation Museum Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Naval%20Aviation%20Museum%20Goa",
+      "category": "Museums & Heritage"
+    },
+    {
+      "id": "museum-of-goa-mog",
+      "name": "Museum of Goa (MOG)",
+      "description": "Contemporary art and culture museum in Pilerne.",
+      "location": "Pilerne",
+      "region": "North",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Museum of Goa (MOG) Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Goa%20%28MOG%29%20Goa",
+      "category": "Museums & Heritage"
+    },
+    {
+      "id": "archaeological-museum-of-goa",
+      "name": "Archaeological Museum of Goa",
+      "description": "Museum at Old Goa with archaeological and heritage collections.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Archaeological Museum of Goa Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Archaeological%20Museum%20of%20Goa%20Goa",
+      "category": "Museums & Heritage"
+    },
+    {
+      "id": "dharohar-national-museum-of-customs-gst",
+      "name": "Dharohar: National Museum of Customs & GST",
+      "description": "Museum covering customs and indirect-tax heritage.",
+      "location": "Panaji",
+      "region": "Central",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Dharohar: National Museum of Customs & GST Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Dharohar%3A%20National%20Museum%20of%20Customs%20%26%20GST%20Goa",
+      "category": "Museums & Heritage"
+    },
+    {
+      "id": "houses-of-goa-museum",
+      "name": "Houses of Goa Museum",
+      "description": "Museum focused on Goan architectural traditions.",
+      "location": "Torda",
+      "region": "North",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Houses of Goa Museum Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Houses%20of%20Goa%20Museum%20Goa",
+      "category": "Museums & Heritage"
+    },
+    {
+      "id": "goa-science-centre",
+      "name": "Goa Science Centre",
+      "description": "Science learning and exhibition centre.",
+      "location": "Panaji",
+      "region": "Central",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Goa Science Centre Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Goa%20Science%20Centre%20Goa",
+      "category": "Museums & Heritage"
+    }
+  ],
+  "source_references": [
+    "goa_tourism",
+    "goa_tourism_beaches",
+    "goa_tourism_temples",
+    "goa_tourism_churches",
+    "goa_tourism_forts",
+    "goa_tourism_museums",
+    "goa_tourism_fort_aguada",
+    "goa_government",
+    "goa_police",
+    "wikimedia_goa"
+  ]
+}

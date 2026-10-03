@@ -1,0 +1,301 @@
+{
+  "category": "near_me",
+  "icon": "📍",
+  "title": "Important Places Near Me",
+  "version": 3,
+  "last_updated": "2026-10-03",
+  "items": [
+    {
+      "id": "hospital",
+      "name": "Hospital",
+      "description": "Open Google Maps to find hospital around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "hospital near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=hospital%20near%20me"
+    },
+    {
+      "id": "pharmacy",
+      "name": "Pharmacy",
+      "description": "Open Google Maps to find pharmacy around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "pharmacy near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=pharmacy%20near%20me"
+    },
+    {
+      "id": "police-station",
+      "name": "Police Station",
+      "description": "Open Google Maps to find police station around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "police station near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=police%20station%20near%20me"
+    },
+    {
+      "id": "ambulance",
+      "name": "Ambulance",
+      "description": "Open Google Maps to find ambulance around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "ambulance near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=ambulance%20near%20me"
+    },
+    {
+      "id": "petrol-pump",
+      "name": "Petrol Pump",
+      "description": "Open Google Maps to find petrol pump around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "petrol pump near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=petrol%20pump%20near%20me"
+    },
+    {
+      "id": "ev-charging",
+      "name": "EV Charging",
+      "description": "Open Google Maps to find ev charging around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "EV charging station near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=EV%20charging%20station%20near%20me"
+    },
+    {
+      "id": "atm",
+      "name": "ATM",
+      "description": "Open Google Maps to find atm around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "ATM near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=ATM%20near%20me"
+    },
+    {
+      "id": "public-toilet",
+      "name": "Public Toilet",
+      "description": "Open Google Maps to find public toilet around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "public toilet near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=public%20toilet%20near%20me"
+    },
+    {
+      "id": "parking",
+      "name": "Parking",
+      "description": "Open Google Maps to find parking around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "parking near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=parking%20near%20me"
+    },
+    {
+      "id": "restaurant",
+      "name": "Restaurant",
+      "description": "Open Google Maps to find restaurant around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "restaurants near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=restaurants%20near%20me"
+    },
+    {
+      "id": "supermarket",
+      "name": "Supermarket",
+      "description": "Open Google Maps to find supermarket around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "supermarket near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=supermarket%20near%20me"
+    },
+    {
+      "id": "hotel",
+      "name": "Hotel",
+      "description": "Open Google Maps to find hotel around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "hotels near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=hotels%20near%20me"
+    },
+    {
+      "id": "bike-rental",
+      "name": "Bike Rental",
+      "description": "Open Google Maps to find bike rental around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "bike rental near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=bike%20rental%20near%20me"
+    },
+    {
+      "id": "car-rental",
+      "name": "Car Rental",
+      "description": "Open Google Maps to find car rental around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "car rental near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=car%20rental%20near%20me"
+    },
+    {
+      "id": "bus-stand",
+      "name": "Bus Stand",
+      "description": "Open Google Maps to find bus stand around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "bus stand near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=bus%20stand%20near%20me"
+    },
+    {
+      "id": "railway-station",
+      "name": "Railway Station",
+      "description": "Open Google Maps to find railway station around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "railway station near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=railway%20station%20near%20me"
+    },
+    {
+      "id": "ferry",
+      "name": "Ferry",
+      "description": "Open Google Maps to find ferry around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "ferry near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=ferry%20near%20me"
+    },
+    {
+      "id": "temple",
+      "name": "Temple",
+      "description": "Open Google Maps to find temple around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "temple near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=temple%20near%20me"
+    },
+    {
+      "id": "church",
+      "name": "Church",
+      "description": "Open Google Maps to find church around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "church near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=church%20near%20me"
+    },
+    {
+      "id": "beach",
+      "name": "Beach",
+      "description": "Open Google Maps to find beach around the user's current area.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "near me"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "beach near me",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=beach%20near%20me"
+    }
+  ],
+  "source_references": [
+    "goa_tourism",
+    "goa_tourism_beaches",
+    "goa_tourism_temples",
+    "goa_tourism_churches",
+    "goa_tourism_forts",
+    "goa_tourism_museums",
+    "goa_tourism_fort_aguada",
+    "goa_government",
+    "goa_police",
+    "wikimedia_goa"
+  ]
+}
