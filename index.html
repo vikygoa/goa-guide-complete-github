@@ -1,5 +1,68 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b74de"><meta name="description" content="Goa Guide mobile-friendly travel and local information"><title>Goa Guide — Material 3</title><link rel="stylesheet" href="css/style.css"></head><body>
-<header><div class="top"><div class="logo">🌴</div><div class="brand"><h1>Goa Guide</h1><small>Explore • Discover • Travel</small></div></div></header>
-<main><section id="home"><div class="hero"><h2>Explore Goa</h2><p>Tourist places, temples, beaches, food, transport, safety, emergency help and useful local tools.</p><div class="search"><input id="search" type="search" placeholder="Search beaches, temples, food, hospitals…"></div></div><div id="grid" class="grid"></div></section>
-<section id="detail" class="detail"><button id="back" class="back">← All sections</button><div class="detailHead"><img id="detailImg" alt=""><div class="detailText"><h2 id="detailTitle"></h2><p id="detailDesc" class="muted"></p><div class="chips"><span class="chip">Material 3</span><span class="chip">Google Maps</span><span class="chip">Mobile friendly</span></div></div></div><div class="search"><input id="filter" type="search" placeholder="Search inside this section…"></div><div id="items" class="items"></div></section></main>
-<footer>Goa Guide • GitHub test project • Verify current prices, hours, laws and business details before production.</footer><script src="js/app.js"></script></body></html>
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b74de">
+<meta name="description" content="Goa Guide — beaches, temples, places, food, stays, transport, emergency help and tourist information.">
+<title>Goa Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app-shell">
+<header class="topbar">
+  <button class="icon-btn" id="menuBtn" aria-label="Menu">☰</button>
+  <div class="brand-mark">🌴</div>
+  <div class="brand-title">Goa Guide</div>
+  <button class="icon-btn" id="topSearchBtn" aria-label="Search">⌕</button>
+</header>
+
+<main>
+<section id="home" class="page active">
+  <div class="hero-photo">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Baga_Beach_Goa.JPG" alt="Goa beach" onerror="this.style.display='none'">
+    <div class="hero-shade"></div>
+    <div class="hero-copy">
+      <h1>Goa Guide</h1>
+      <p>Explore · Discover · Travel</p>
+    </div>
+  </div>
+  <div class="home-content">
+    <div class="search-box">
+      <span>⌕</span><input id="search" type="search" placeholder="Search places, beaches, hotels…" autocomplete="off">
+    </div>
+    <div id="grid" class="category-grid"></div>
+  </div>
+</section>
+
+<section id="detail" class="page detail-page">
+  <div class="detail-topbar">
+    <button id="back" class="back-btn">‹</button>
+    <strong id="detailTopTitle">Goa Guide</strong>
+    <button class="icon-btn" id="detailMapBtn" aria-label="Map">⌖</button>
+  </div>
+  <div class="detail-cover"><img id="detailImg" alt=""><div class="cover-gradient"></div><div class="cover-title"><h2 id="detailTitle"></h2><p id="detailDesc"></p></div></div>
+  <div class="detail-body">
+    <div class="search-box compact"><span>⌕</span><input id="filter" type="search" placeholder="Search in this section…"></div>
+    <div id="items" class="items"></div>
+  </div>
+</section>
+</main>
+
+<nav class="bottom-nav" aria-label="Main navigation">
+  <button class="nav-item active" data-nav="home"><span>⌂</span><small>Home</small></button>
+  <button class="nav-item" data-nav="explore"><span>⌕</span><small>Explore</small></button>
+  <button class="nav-item" data-nav="near"><span>⌖</span><small>Near Me</small></button>
+  <button class="nav-item" data-nav="favorites"><span>♡</span><small>Favorites</small></button>
+  <button class="nav-item" data-nav="more"><span>⋯</span><small>More</small></button>
+</nav>
+
+<div id="toast" class="toast"></div>
+<script src="js/app.js"></script>
+</div>
+</body>
+</html>
