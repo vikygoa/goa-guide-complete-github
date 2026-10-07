@@ -80,7 +80,7 @@ function renderHome(){
 
   grid.innerHTML=categories.map(c=>`
     <button class="category-card" data-key="${esc(c.id)}">
-      <span class="cat-icon">${categoryIcon(c.id)}</span>
+      <span class="cat-icon"><img src="${esc(c.icon)}" alt="" onerror="this.style.display='none';this.parentElement.textContent='${categoryIcon(c.id)}'"></span>
       <strong>${esc(c.name)}</strong>
       <small>${esc(c.description||'Explore Goa')}</small>
     </button>
