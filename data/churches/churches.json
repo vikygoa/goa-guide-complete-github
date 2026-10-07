@@ -1,0 +1,203 @@
+{
+  "category": "churches",
+  "icon": "⛪",
+  "title": "Churches",
+  "version": 3,
+  "last_updated": "2026-10-03",
+  "items": [
+    {
+      "id": "basilica-of-bom-jesus",
+      "name": "Basilica of Bom Jesus",
+      "description": "Historic church in Old Goa and part of the UNESCO World Heritage complex.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilica_Of_Bom_Jesus%2C_Goa.jpg",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Basilica_Of_Bom_Jesus%2C_Goa.jpg",
+      "maps_query": "Basilica of Bom Jesus Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Basilica%20of%20Bom%20Jesus%20Goa"
+    },
+    {
+      "id": "se-cathedral",
+      "name": "Se Cathedral",
+      "description": "Historic cathedral in Old Goa and part of the UNESCO World Heritage complex.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Se_Cathedral%2Cgoa.jpg",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Se_Cathedral%2Cgoa.jpg",
+      "maps_query": "Se Cathedral Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Se%20Cathedral%20Goa"
+    },
+    {
+      "id": "church-of-st-francis-of-assisi",
+      "name": "Church of St. Francis of Assisi",
+      "description": "Historic church beside Se Cathedral in Old Goa.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Church of St. Francis of Assisi Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Church%20of%20St.%20Francis%20of%20Assisi%20Goa"
+    },
+    {
+      "id": "st-cajetan-s-church",
+      "name": "St. Cajetan's Church",
+      "description": "Historic church in Old Goa with Renaissance-inspired architecture.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "St. Cajetan's Church Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=St.%20Cajetan%27s%20Church%20Goa"
+    },
+    {
+      "id": "our-lady-of-immaculate-conception",
+      "name": "Our Lady of Immaculate Conception",
+      "description": "Landmark church overlooking Panaji.",
+      "location": "Panaji",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Our Lady of Immaculate Conception Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Our%20Lady%20of%20Immaculate%20Conception%20Goa"
+    },
+    {
+      "id": "mae-de-deus-church",
+      "name": "Mae de Deus Church",
+      "description": "Distinctive church in Saligao, North Goa.",
+      "location": "Saligao",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Mae de Deus Church Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mae%20de%20Deus%20Church%20Goa"
+    },
+    {
+      "id": "church-of-our-lady-of-rosary",
+      "name": "Church of Our Lady of Rosary",
+      "description": "Historic church in the Old Goa heritage area.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Church of Our Lady of Rosary Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Church%20of%20Our%20Lady%20of%20Rosary%20Goa"
+    },
+    {
+      "id": "church-of-st-ana",
+      "name": "Church of St. Ana",
+      "description": "Historic church at Talaulim.",
+      "location": "Talaulim",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Church of St. Ana Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Church%20of%20St.%20Ana%20Goa"
+    },
+    {
+      "id": "church-of-santa-monica",
+      "name": "Church of Santa Monica",
+      "description": "Historic church/nunnery complex in Old Goa.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Church of Santa Monica Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Church%20of%20Santa%20Monica%20Goa"
+    },
+    {
+      "id": "rachol-seminary",
+      "name": "Rachol Seminary",
+      "description": "Historic seminary complex near Rachol.",
+      "location": "Rachol, South Goa",
+      "region": "South",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Rachol Seminary Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Rachol%20Seminary%20Goa"
+    },
+    {
+      "id": "reis-magos-church",
+      "name": "Reis Magos Church",
+      "description": "Historic church in Reis Magos overlooking the Mandovi.",
+      "location": "Reis Magos",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Reis Magos Church Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Reis%20Magos%20Church%20Goa"
+    },
+    {
+      "id": "ruins-of-st-augustine",
+      "name": "Ruins of St. Augustine",
+      "description": "Remains of the former Augustinian complex at Old Goa.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Ruins of St. Augustine Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruins%20of%20St.%20Augustine%20Goa"
+    },
+    {
+      "id": "chapel-of-our-lady-of-the-mount",
+      "name": "Chapel of Our Lady of the Mount",
+      "description": "Historic chapel on a hill overlooking Old Goa.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "church"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Chapel of Our Lady of the Mount Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Chapel%20of%20Our%20Lady%20of%20the%20Mount%20Goa"
+    }
+  ],
+  "source_references": [
+    "goa_tourism",
+    "goa_tourism_beaches",
+    "goa_tourism_temples",
+    "goa_tourism_churches",
+    "goa_tourism_forts",
+    "goa_tourism_museums",
+    "goa_tourism_fort_aguada",
+    "goa_government",
+    "goa_police",
+    "wikimedia_goa"
+  ]
+}

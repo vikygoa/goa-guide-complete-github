@@ -1,0 +1,201 @@
+{
+  "category": "food",
+  "icon": "🍛",
+  "title": "Must-Try Goan Food",
+  "version": 3,
+  "last_updated": "2026-10-03",
+  "items": [
+    {
+      "id": "goan-fish-curry-rice",
+      "name": "Goan Fish Curry Rice",
+      "description": "Goan Fish Curry Rice is a traditional Goan food worth trying. Recipes and ingredients vary by household and restaurant.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "Goan food"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Goan Fish Curry Rice Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Goan%20Fish%20Curry%20Rice%20Goa",
+      "common_ingredients": "fish, coconut, spices, rice"
+    },
+    {
+      "id": "chicken-xacuti",
+      "name": "Chicken Xacuti",
+      "description": "Chicken Xacuti is a traditional Goan food worth trying. Recipes and ingredients vary by household and restaurant.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "Goan food"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Chicken Xacuti Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Chicken%20Xacuti%20Goa",
+      "common_ingredients": "chicken, coconut, spices"
+    },
+    {
+      "id": "crab-xacuti",
+      "name": "Crab Xacuti",
+      "description": "Crab Xacuti is a traditional Goan food worth trying. Recipes and ingredients vary by household and restaurant.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "Goan food"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Crab Xacuti Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Crab%20Xacuti%20Goa",
+      "common_ingredients": "crab, coconut, spices"
+    },
+    {
+      "id": "prawn-balch-o",
+      "name": "Prawn Balchão",
+      "description": "Prawn Balchão is a traditional Goan food worth trying. Recipes and ingredients vary by household and restaurant.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "Goan food"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Prawn Balchão Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Prawn%20Balch%C3%A3o%20Goa",
+      "common_ingredients": "prawns, chilli, vinegar, spices"
+    },
+    {
+      "id": "ambot-tik",
+      "name": "Ambot Tik",
+      "description": "Ambot Tik is a traditional Goan food worth trying. Recipes and ingredients vary by household and restaurant.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "Goan food"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Ambot Tik Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Ambot%20Tik%20Goa",
+      "common_ingredients": "fish, tamarind/kokum, chilli, spices"
+    },
+    {
+      "id": "prawn-dangal",
+      "name": "Prawn Dangal",
+      "description": "Prawn Dangal is a traditional Goan food worth trying. Recipes and ingredients vary by household and restaurant.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "Goan food"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Prawn Dangal Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Prawn%20Dangal%20Goa",
+      "common_ingredients": "prawns, onion, spices"
+    },
+    {
+      "id": "kismur",
+      "name": "Kismur",
+      "description": "Kismur is a traditional Goan food worth trying. Recipes and ingredients vary by household and restaurant.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "Goan food"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Kismur Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kismur%20Goa",
+      "common_ingredients": "dried prawns/fish, coconut, chilli"
+    },
+    {
+      "id": "khatkhate",
+      "name": "Khatkhate",
+      "description": "Khatkhate is a traditional Goan food worth trying. Recipes and ingredients vary by household and restaurant.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "Goan food"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Khatkhate Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Khatkhate%20Goa",
+      "common_ingredients": "mixed vegetables, coconut, spices"
+    },
+    {
+      "id": "alle-belle",
+      "name": "Alle Belle",
+      "description": "Alle Belle is a traditional Goan food worth trying. Recipes and ingredients vary by household and restaurant.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "Goan food"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Alle Belle Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Alle%20Belle%20Goa",
+      "common_ingredients": "flour, coconut, jaggery"
+    },
+    {
+      "id": "bebinca",
+      "name": "Bebinca",
+      "description": "Bebinca is a traditional Goan food worth trying. Recipes and ingredients vary by household and restaurant.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "Goan food"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Bebinca Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Bebinca%20Goa",
+      "common_ingredients": "coconut milk, eggs, flour, sugar"
+    },
+    {
+      "id": "sanna",
+      "name": "Sanna",
+      "description": "Sanna is a traditional Goan food worth trying. Recipes and ingredients vary by household and restaurant.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "Goan food"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Sanna Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Sanna%20Goa",
+      "common_ingredients": "rice, coconut, fermentation"
+    },
+    {
+      "id": "patoleo",
+      "name": "Patoleo",
+      "description": "Patoleo is a traditional Goan food worth trying. Recipes and ingredients vary by household and restaurant.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "Goan food"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Patoleo Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Patoleo%20Goa",
+      "common_ingredients": "rice, coconut, jaggery, turmeric leaf"
+    }
+  ],
+  "source_references": [
+    "goa_tourism",
+    "goa_tourism_beaches",
+    "goa_tourism_temples",
+    "goa_tourism_churches",
+    "goa_tourism_forts",
+    "goa_tourism_museums",
+    "goa_tourism_fort_aguada",
+    "goa_government",
+    "goa_police",
+    "wikimedia_goa"
+  ]
+}

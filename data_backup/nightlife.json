@@ -1,0 +1,189 @@
+{
+  "category": "nightlife",
+  "icon": "🌙",
+  "title": "Things To Do / Nightlife",
+  "version": 3,
+  "last_updated": "2026-10-03",
+  "items": [
+    {
+      "id": "live-music",
+      "name": "Live Music",
+      "description": "Find current live music listings in Goa. Verify current operating status, entry rules and prices before visiting.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "nightlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Live Music Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Live%20Music%20Goa"
+    },
+    {
+      "id": "dj-nights",
+      "name": "DJ Nights",
+      "description": "Find current dj nights listings in Goa. Verify current operating status, entry rules and prices before visiting.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "nightlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "DJ Nights Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=DJ%20Nights%20Goa"
+    },
+    {
+      "id": "dance-clubs-nightclubs",
+      "name": "Dance Clubs / Nightclubs",
+      "description": "Find current dance clubs / nightclubs listings in Goa. Verify current operating status, entry rules and prices before visiting.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "nightlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Dance Clubs / Nightclubs Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Dance%20Clubs%20/%20Nightclubs%20Goa"
+    },
+    {
+      "id": "pubs-bars",
+      "name": "Pubs & Bars",
+      "description": "Find current pubs & bars listings in Goa. Verify current operating status, entry rules and prices before visiting.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "nightlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Pubs & Bars Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Pubs%20%26%20Bars%20Goa"
+    },
+    {
+      "id": "live-bands",
+      "name": "Live Bands",
+      "description": "Find current live bands listings in Goa. Verify current operating status, entry rules and prices before visiting.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "nightlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Live Bands Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Live%20Bands%20Goa"
+    },
+    {
+      "id": "party-venues",
+      "name": "Party Venues",
+      "description": "Find current party venues listings in Goa. Verify current operating status, entry rules and prices before visiting.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "nightlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Party Venues Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Party%20Venues%20Goa"
+    },
+    {
+      "id": "beach-club-parties",
+      "name": "Beach / Club Parties",
+      "description": "Find current beach / club parties listings in Goa. Verify current operating status, entry rules and prices before visiting.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "nightlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Beach / Club Parties Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Beach%20/%20Club%20Parties%20Goa"
+    },
+    {
+      "id": "casinos",
+      "name": "Casinos",
+      "description": "Find current casinos listings in Goa. Verify current operating status, entry rules and prices before visiting.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "nightlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Casinos Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Casinos%20Goa"
+    },
+    {
+      "id": "casino-cruises",
+      "name": "Casino Cruises",
+      "description": "Find current casino cruises listings in Goa. Verify current operating status, entry rules and prices before visiting.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "nightlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Casino Cruises Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Casino%20Cruises%20Goa"
+    },
+    {
+      "id": "live-shows-entertainment",
+      "name": "Live Shows & Entertainment",
+      "description": "Find current live shows & entertainment listings in Goa. Verify current operating status, entry rules and prices before visiting.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "nightlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Live Shows & Entertainment Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Live%20Shows%20%26%20Entertainment%20Goa"
+    },
+    {
+      "id": "night-markets",
+      "name": "Night Markets",
+      "description": "Find current night markets listings in Goa. Verify current operating status, entry rules and prices before visiting.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "nightlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Night Markets Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Night%20Markets%20Goa"
+    },
+    {
+      "id": "nightlife-areas",
+      "name": "Nightlife Areas",
+      "description": "Find current nightlife areas listings in Goa. Verify current operating status, entry rules and prices before visiting.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "nightlife"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Nightlife Areas Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Nightlife%20Areas%20Goa"
+    }
+  ],
+  "source_references": [
+    "goa_tourism",
+    "goa_tourism_beaches",
+    "goa_tourism_temples",
+    "goa_tourism_churches",
+    "goa_tourism_forts",
+    "goa_tourism_museums",
+    "goa_tourism_fort_aguada",
+    "goa_government",
+    "goa_police",
+    "wikimedia_goa"
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "category": "shopping",
+  "icon": "🛍️",
+  "title": "Goa Shopping Guide",
+  "version": 3,
+  "last_updated": "2026-10-03",
+  "items": [
+    {
+      "id": "panaji-market",
+      "name": "Panaji Market",
+      "description": "Local market area in Panaji for groceries, produce and everyday goods.",
+      "location": "Panaji",
+      "region": "",
+      "tags": [
+        "shopping"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Panaji Market Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Panaji%20Market%20Goa"
+    },
+    {
+      "id": "margao-market",
+      "name": "Margao Market",
+      "description": "Major market area serving Margao and South Goa.",
+      "location": "Margao",
+      "region": "",
+      "tags": [
+        "shopping"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Margao Market Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Margao%20Market%20Goa"
+    },
+    {
+      "id": "mapusa-friday-market",
+      "name": "Mapusa Friday Market",
+      "description": "Well-known Friday market in Mapusa.",
+      "location": "Mapusa",
+      "region": "",
+      "tags": [
+        "shopping"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Mapusa Friday Market Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mapusa%20Friday%20Market%20Goa"
+    },
+    {
+      "id": "anjuna-flea-market",
+      "name": "Anjuna Flea Market",
+      "description": "Market associated with Anjuna and tourist shopping; check current market days.",
+      "location": "Anjuna",
+      "region": "",
+      "tags": [
+        "shopping"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Anjuna Flea Market Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Anjuna%20Flea%20Market%20Goa"
+    },
+    {
+      "id": "arpora-saturday-night-market",
+      "name": "Arpora Saturday Night Market",
+      "description": "Night market in Arpora; check current seasonal operation.",
+      "location": "Arpora",
+      "region": "",
+      "tags": [
+        "shopping"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Arpora Saturday Night Market Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Arpora%20Saturday%20Night%20Market%20Goa"
+    },
+    {
+      "id": "spices-masalas",
+      "name": "Spices & Masalas",
+      "description": "Goan spices and masala blends are common food products to take home.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "shopping"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Spices & Masalas Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Spices%20%26%20Masalas%20Goa"
+    },
+    {
+      "id": "cashews",
+      "name": "Cashews",
+      "description": "Cashews are a common Goa food product.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "shopping"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Cashews Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cashews%20Goa"
+    },
+    {
+      "id": "kokum-products",
+      "name": "Kokum Products",
+      "description": "Kokum syrup, dried kokum and related products are sold in Goa.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "shopping"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Kokum Products Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kokum%20Products%20Goa"
+    },
+    {
+      "id": "local-vinegar",
+      "name": "Local Vinegar",
+      "description": "Goan-style vinegar is used in traditional cuisine.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "shopping"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Local Vinegar Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Local%20Vinegar%20Goa"
+    },
+    {
+      "id": "pickles-chutneys",
+      "name": "Pickles & Chutneys",
+      "description": "Local pickles and preserves are common food souvenirs.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "shopping"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Pickles & Chutneys Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Pickles%20%26%20Chutneys%20Goa"
+    },
+    {
+      "id": "handicrafts",
+      "name": "Handicrafts",
+      "description": "Wood, bamboo, pottery and other handicrafts can be found in local markets.",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "shopping"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Handicrafts Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Handicrafts%20Goa"
+    }
+  ],
+  "source_references": [
+    "goa_tourism",
+    "goa_tourism_beaches",
+    "goa_tourism_temples",
+    "goa_tourism_churches",
+    "goa_tourism_forts",
+    "goa_tourism_museums",
+    "goa_tourism_fort_aguada",
+    "goa_government",
+    "goa_police",
+    "wikimedia_goa"
+  ]
+}

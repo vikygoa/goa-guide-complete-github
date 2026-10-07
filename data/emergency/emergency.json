@@ -1,0 +1,229 @@
+{
+  "category": "emergency",
+  "icon": "🚨",
+  "title": "Emergency & Government Help",
+  "version": 3,
+  "last_updated": "2026-10-03",
+  "items": [
+    {
+      "id": "emergency-response-support-system",
+      "name": "Emergency Response Support System",
+      "description": "Police/fire/medical emergency response",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "emergency"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Emergency Response Support System Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Emergency%20Response%20Support%20System%20Goa",
+      "phone": "112",
+      "source": "Government of Goa / Goa Tourism"
+    },
+    {
+      "id": "police",
+      "name": "Police",
+      "description": "Police emergency assistance",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "emergency"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Police Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Police%20Goa",
+      "phone": "100 / 112",
+      "source": "Government of Goa / Goa Tourism"
+    },
+    {
+      "id": "ambulance",
+      "name": "Ambulance",
+      "description": "Ambulance services",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "emergency"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Ambulance Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Ambulance%20Goa",
+      "phone": "108 / 102",
+      "source": "Government of Goa / Goa Tourism"
+    },
+    {
+      "id": "fire-brigade",
+      "name": "Fire Brigade",
+      "description": "Fire and rescue",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "emergency"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Fire Brigade Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Fire%20Brigade%20Goa",
+      "phone": "101",
+      "source": "Government of Goa / Goa Tourism"
+    },
+    {
+      "id": "child-helpline",
+      "name": "Child Helpline",
+      "description": "Child assistance",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "emergency"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Child Helpline Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Child%20Helpline%20Goa",
+      "phone": "1098",
+      "source": "Government of Goa / Goa Tourism"
+    },
+    {
+      "id": "women-helpline",
+      "name": "Women Helpline",
+      "description": "Women helpline",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "emergency"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Women Helpline Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Women%20Helpline%20Goa",
+      "phone": "1091",
+      "source": "Government of Goa / Goa Tourism"
+    },
+    {
+      "id": "senior-citizen-helpline",
+      "name": "Senior Citizen Helpline",
+      "description": "Senior citizen assistance",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "emergency"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Senior Citizen Helpline Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Senior%20Citizen%20Helpline%20Goa",
+      "phone": "1090",
+      "source": "Government of Goa / Goa Tourism"
+    },
+    {
+      "id": "electricity-helpline",
+      "name": "Electricity Helpline",
+      "description": "Electricity-related complaints",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "emergency"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Electricity Helpline Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Electricity%20Helpline%20Goa",
+      "phone": "1912",
+      "source": "Government of Goa / Goa Tourism"
+    },
+    {
+      "id": "cyber-fraud",
+      "name": "Cyber Fraud",
+      "description": "Report cyber financial fraud",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "emergency"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Cyber Fraud Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cyber%20Fraud%20Goa",
+      "phone": "1930",
+      "source": "Government of Goa / Goa Tourism"
+    },
+    {
+      "id": "tourism-helpline",
+      "name": "Tourism Helpline",
+      "description": "Goa Tourism helpline",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "emergency"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Tourism Helpline Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Tourism%20Helpline%20Goa",
+      "phone": "1364",
+      "source": "Government of Goa / Goa Tourism"
+    },
+    {
+      "id": "women-whatsapp",
+      "name": "Women WhatsApp",
+      "description": "Goa government listed WhatsApp contact",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "emergency"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Women WhatsApp Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Women%20WhatsApp%20Goa",
+      "phone": "7875756177",
+      "source": "Government of Goa / Goa Tourism"
+    },
+    {
+      "id": "public-grievances",
+      "name": "Public Grievances",
+      "description": "Public grievance contact",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "emergency"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Public Grievances Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Public%20Grievances%20Goa",
+      "phone": "9319334335",
+      "source": "Government of Goa / Goa Tourism"
+    },
+    {
+      "id": "gmc-bambolim",
+      "name": "GMC Bambolim",
+      "description": "Government-listed GMC contact",
+      "location": "Goa",
+      "region": "",
+      "tags": [
+        "emergency"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "GMC Bambolim Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=GMC%20Bambolim%20Goa",
+      "phone": "08322458700",
+      "source": "Government of Goa / Goa Tourism"
+    }
+  ],
+  "source_references": [
+    "goa_tourism",
+    "goa_tourism_beaches",
+    "goa_tourism_temples",
+    "goa_tourism_churches",
+    "goa_tourism_forts",
+    "goa_tourism_museums",
+    "goa_tourism_fort_aguada",
+    "goa_government",
+    "goa_police",
+    "wikimedia_goa"
+  ]
+}

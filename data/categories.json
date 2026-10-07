@@ -1,0 +1,128 @@
+[
+  {
+    "id": "beaches",
+    "name": "Beaches",
+    "icon": "assets/images/categories/beaches.png",
+    "description": "Discover Goa's famous beaches",
+    "dataPath": "data/beaches/beaches.json"
+  },
+  {
+    "id": "places",
+    "name": "Places to Visit",
+    "icon": "assets/images/categories/places.png",
+    "description": "Explore beautiful places in Goa",
+    "dataPath": "data/places/places.json"
+  },
+  {
+    "id": "temples",
+    "name": "Hindu Temples",
+    "icon": "assets/images/categories/temples.png",
+    "description": "Ancient and famous temples",
+    "dataPath": "data/temples/temples.json"
+  },
+  {
+    "id": "churches",
+    "name": "Churches",
+    "icon": "assets/images/categories/churches.png",
+    "description": "Historic churches and chapels",
+    "dataPath": "data/churches/churches.json"
+  },
+  {
+    "id": "forts",
+    "name": "Forts",
+    "icon": "assets/images/categories/forts.png",
+    "description": "Explore Goa's historic forts",
+    "dataPath": "data/forts/forts.json"
+  },
+  {
+    "id": "nature",
+    "name": "Waterfalls & Wildlife",
+    "icon": "assets/images/categories/nature.png",
+    "description": "Waterfalls, forests and wildlife",
+    "dataPath": "data/wildlife/nature.json"
+  },
+  {
+    "id": "museums",
+    "name": "Museums & Heritage",
+    "icon": "assets/images/categories/museums.png",
+    "description": "Goa's history and heritage",
+    "dataPath": "data/museums/museums.json"
+  },
+  {
+    "id": "hotels",
+    "name": "Where to Stay",
+    "icon": "assets/images/categories/hotels.png",
+    "description": "Hotels and places to stay",
+    "dataPath": "data/hotels/hotels.json"
+  },
+  {
+    "id": "food",
+    "name": "Must-Try Goan Food",
+    "icon": "assets/images/categories/food.png",
+    "description": "Traditional Goan dishes",
+    "dataPath": "data/food/food.json"
+  },
+  {
+    "id": "transport",
+    "name": "Getting Around Goa",
+    "icon": "assets/images/categories/transport.png",
+    "description": "Transport and travel information",
+    "dataPath": "data/transport/transport.json"
+  },
+  {
+    "id": "restaurants",
+    "name": "Restaurants & Food Places",
+    "icon": "assets/images/categories/restaurants.png",
+    "description": "Restaurants and places to eat",
+    "dataPath": "data/restaurants/restaurants.json"
+  },
+  {
+    "id": "rentals",
+    "name": "Bike & Car Rental",
+    "icon": "assets/images/categories/rentals.png",
+    "description": "Vehicle rental information",
+    "dataPath": "data/rentals/rentals.json"
+  },
+  {
+    "id": "emergency",
+    "name": "Emergency & Government Help",
+    "icon": "assets/images/categories/emergency.png",
+    "description": "Emergency numbers and important services",
+    "dataPath": "data/emergency/emergency.json"
+  },
+  {
+    "id": "rules",
+    "name": "Important Tourist Rules",
+    "icon": "assets/images/categories/rules.png",
+    "description": "Important rules for tourists",
+    "dataPath": "data/rules/rules.json"
+  },
+  {
+    "id": "scams",
+    "name": "Tourist Scam Alerts",
+    "icon": "assets/images/categories/scams.png",
+    "description": "Know common tourist scams",
+    "dataPath": "data/scams/scams.json"
+  },
+  {
+    "id": "nightlife",
+    "name": "Things To Do / Nightlife",
+    "icon": "assets/images/categories/nightlife.png",
+    "description": "Things to do and nightlife",
+    "dataPath": "data/nightlife/nightlife.json"
+  },
+  {
+    "id": "shopping",
+    "name": "Goa Shopping Guide",
+    "icon": "assets/images/categories/shopping.png",
+    "description": "Shopping and local markets",
+    "dataPath": "data/shopping/shopping.json"
+  },
+  {
+    "id": "money",
+    "name": "Money & Banking",
+    "icon": "assets/images/categories/money.png",
+    "description": "ATMs, banks and money information",
+    "dataPath": "data/money/money.json"
+  }
+]

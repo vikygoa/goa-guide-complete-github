@@ -1,0 +1,147 @@
+{
+  "category": "museums",
+  "icon": "🏛️",
+  "title": "Museums & Heritage",
+  "version": 3,
+  "last_updated": "2026-10-03",
+  "items": [
+    {
+      "id": "goa-state-museum",
+      "name": "Goa State Museum",
+      "description": "State museum with collections relating to Goa's art, history and heritage.",
+      "location": "Panaji",
+      "region": "Central",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Goa State Museum Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Goa%20State%20Museum%20Goa"
+    },
+    {
+      "id": "goa-chitra-museum",
+      "name": "Goa Chitra Museum",
+      "description": "Museum focused on Goan agrarian and material culture.",
+      "location": "Benaulim",
+      "region": "South",
+      "tags": [
+        "museum"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Goa_Chitra_Museum.jpg",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Goa_Chitra_Museum.jpg",
+      "maps_query": "Goa Chitra Museum Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Goa%20Chitra%20Museum%20Goa"
+    },
+    {
+      "id": "museum-of-christian-art",
+      "name": "Museum of Christian Art",
+      "description": "Museum in Old Goa with a collection of Christian art.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Museum of Christian Art Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Christian%20Art%20Goa"
+    },
+    {
+      "id": "naval-aviation-museum",
+      "name": "Naval Aviation Museum",
+      "description": "Museum near Dabolim/Vasco displaying Indian naval aviation heritage.",
+      "location": "Bogmalo",
+      "region": "South",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Naval Aviation Museum Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Naval%20Aviation%20Museum%20Goa"
+    },
+    {
+      "id": "museum-of-goa-mog",
+      "name": "Museum of Goa (MOG)",
+      "description": "Contemporary art and culture museum in Pilerne.",
+      "location": "Pilerne",
+      "region": "North",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Museum of Goa (MOG) Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Goa%20%28MOG%29%20Goa"
+    },
+    {
+      "id": "archaeological-museum-of-goa",
+      "name": "Archaeological Museum of Goa",
+      "description": "Museum at Old Goa with archaeological and heritage collections.",
+      "location": "Old Goa",
+      "region": "Central",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Archaeological Museum of Goa Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Archaeological%20Museum%20of%20Goa%20Goa"
+    },
+    {
+      "id": "dharohar-national-museum-of-customs-gst",
+      "name": "Dharohar: National Museum of Customs & GST",
+      "description": "Museum covering customs and indirect-tax heritage.",
+      "location": "Panaji",
+      "region": "Central",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Dharohar: National Museum of Customs & GST Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Dharohar%3A%20National%20Museum%20of%20Customs%20%26%20GST%20Goa"
+    },
+    {
+      "id": "houses-of-goa-museum",
+      "name": "Houses of Goa Museum",
+      "description": "Museum focused on Goan architectural traditions.",
+      "location": "Torda",
+      "region": "North",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Houses of Goa Museum Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Houses%20of%20Goa%20Museum%20Goa"
+    },
+    {
+      "id": "goa-science-centre",
+      "name": "Goa Science Centre",
+      "description": "Science learning and exhibition centre.",
+      "location": "Panaji",
+      "region": "Central",
+      "tags": [
+        "museum"
+      ],
+      "image": "",
+      "image_source": "",
+      "maps_query": "Goa Science Centre Goa",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Goa%20Science%20Centre%20Goa"
+    }
+  ],
+  "source_references": [
+    "goa_tourism",
+    "goa_tourism_beaches",
+    "goa_tourism_temples",
+    "goa_tourism_churches",
+    "goa_tourism_forts",
+    "goa_tourism_museums",
+    "goa_tourism_fort_aguada",
+    "goa_government",
+    "goa_police",
+    "wikimedia_goa"
+  ]
+}
