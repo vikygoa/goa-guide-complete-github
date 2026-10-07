@@ -2,6 +2,7 @@ let categories=[];
 let datasets={};
 let currentKey='';
 let currentItems=[];
+let pageHistory=['homePage'];
 
 const $=s=>document.querySelector(s);
 const $$=s=>[...document.querySelectorAll(s)];
@@ -19,11 +20,32 @@ function esc(v){
   }[c]));
 }
 
-function showPage(id){
+function showPage(id,addHistory=true){
+  const current=$$('.page').find(p=>p.classList.contains('active'))?.id||'homePage';
+
+  if(addHistory && current!==id){
+    pageHistory.push(id);
+  }
+
   $$('.page').forEach(p=>p.classList.remove('active'));
+
   const p=$('#'+id);
   if(p)p.classList.add('active');
+
   window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function goBack(){
+  if(pageHistory.length<=1){
+    showPage('homePage',false);
+    return;
+  }
+
+  pageHistory.pop();
+
+  const previous=pageHistory[pageHistory.length-1]||'homePage';
+
+  showPage(previous,false);
 }
 
 function maps(q){
@@ -135,6 +157,7 @@ function renderSpecialCard(item,key){
 
   if(type==='emergency'){
     const phone=item.phone||item.number||'';
+    const callPhone=phone.split('/')[0].trim();
     return `
       <article class="service-row emergency-service-card">
         <div class="service-info">
@@ -143,7 +166,7 @@ function renderSpecialCard(item,key){
         </div>
         ${
           phone
-          ? `<a class="call-btn emergency-call" href="tel:${esc(phone)}">☎ CALL</a>`
+          ? `<a class="call-btn emergency-call" href="tel:${esc(callPhone.replace(/[^0-9+]/g,''))}">☎ CALL</a>`
           : ''
         }
       </article>`;
@@ -297,144 +320,287 @@ function openListing(key){
 
 
 function smartDetail(item,key){
+
   const name=item?.name||item?.title||'This Goa destination';
-  const location=item?.location||item?.region||'Goa';
+  const location=item?.location||item?.region||item?.area||'Goa';
   const description=item?.description||item?.summary||'';
 
-  let intro=description;
-  let sections=[];
+  const sections=[];
+
+  function add(title,text){
+    if(text) sections.push([title,text]);
+  }
+
+  /* ================= SCAMS ================= */
 
   if(key==='scams'){
-    sections=[
-      ['How this scam works',
-       item.how_it_works||
-       `${name} can involve misleading offers, pressure to make a quick payment, or information that is difficult to verify. Always slow down and verify the person, business, price and payment request before proceeding.`],
 
-      ['Warning signs',
-       item.warning_signs||
-       'Be cautious if someone creates urgency, refuses to provide written details, asks for unusual deposits, requests OTP/UPI PIN information, or gives you information that cannot be independently verified.']],
+    add(
+      'How this scam works',
+      item.how_it_works ||
+      `${name} can involve a person presenting a believable offer, service or problem and then trying to make the visitor pay quickly. The safest approach is to slow down, check the information independently and never make a payment simply because someone is creating pressure.`
+    );
 
-      ['How to protect yourself',
-       item.protect_yourself||
-       'Use established businesses, confirm prices before paying, keep receipts, avoid sharing OTPs or PINs, and verify important information using an official source.']],
+    add(
+      'Warning signs',
+      item.warning_signs ||
+      'Be careful when someone creates urgency, offers an unusually cheap deal, refuses to give written details, asks for an unexplained deposit, requests an OTP or UPI PIN, asks you to scan a QR code to receive money, or refuses to provide a receipt.'
+    );
 
-      ['If you are targeted',
-       item.what_to_do||
-       'Do not argue or escalate the situation. Keep evidence such as messages, receipts, phone numbers and payment details. If money has been transferred electronically, contact your bank/payment provider immediately and report suspected fraud to the appropriate authorities.']
-    ];
+    add(
+      'How to protect yourself',
+      item.protect_yourself ||
+      'Confirm the business, price and terms before paying. Use official websites or established businesses, keep screenshots and receipts, avoid sharing OTPs or UPI PINs, and never install remote-access software because a stranger tells you to.'
+    );
+
+    add(
+      'If someone targets you',
+      item.what_to_do ||
+      'Stay calm and do not hand over cash, cards or personal information under pressure. Save messages, receipts, phone numbers, booking details and payment information. If money was transferred electronically, contact your bank or payment provider immediately and report suspected cyber fraud through the appropriate official channel.'
+    );
+
+    add(
+      'Remember',
+      'A genuine service should allow you time to check the price and details. If a person says you must pay immediately or threatens you for refusing, stop the transaction and seek help.'
+    );
   }
+
+  /* ================= RULES ================= */
 
   else if(key==='rules'){
-    sections=[
-      ['Why this matters',
-       item.why||
-       'Following local rules protects visitors, residents, wildlife, heritage sites and Goa’s environment. Some violations can also result in fines or other legal consequences.']],
 
-      ['What visitors should do',
-       item.what_to_do||
-       'Follow signs, instructions from authorities and lifeguards, use authorised services, respect local customs and dispose of waste responsibly.']],
+    add(
+      'Why this rule matters',
+      item.why ||
+      `${name} is important because visitors share Goa with local communities, wildlife, religious sites, public spaces and other travellers. Following the rule reduces accidents, protects the environment and helps visitors avoid legal or administrative problems.`
+    );
 
-      ['What to avoid',
-       item.what_to_avoid||
-       'Avoid behaviour that puts yourself or others at risk, damages public property or the environment, or violates local laws and restrictions.']],
+    add(
+      'What tourists should do',
+      item.what_to_do ||
+      'Follow official signs, instructions from authorities and lifeguards. Use designated facilities, keep receipts where relevant, respect local customs and leave public places clean.'
+    );
 
-      ['Important',
-       item.safety||
-       'Rules and restrictions can change. When in doubt, check the latest official Goa Tourism or government guidance.']
-    ];
+    add(
+      'What to avoid',
+      item.what_to_avoid ||
+      'Do not ignore warning signs, enter restricted areas, damage property, disturb other people, create unsafe conditions or assume that a rule does not apply because other visitors are breaking it.'
+    );
+
+    add(
+      'Safety / legal note',
+      item.safety ||
+      'Rules and restrictions can change. Check current Goa Tourism or government guidance when a situation involves beaches, traffic, alcohol, public events, wildlife or protected heritage sites.'
+    );
+
+    if(name.toLowerCase().includes('swimming')){
+      add(
+        'Beach safety',
+        'Swim only in areas considered safe and follow lifeguard instructions. Never ignore red flags or enter rough water because other people are swimming.'
+      );
+    }
+
+    if(name.toLowerCase().includes('drive') ||
+       name.toLowerCase().includes('helmet') ||
+       name.toLowerCase().includes('seatbelt')){
+      add(
+        'Before travelling',
+        'Make sure the vehicle and required documents are in order. Use a helmet on two-wheelers and a seatbelt in cars, and never drive after drinking alcohol.'
+      );
+    }
   }
+
+  /* ================= TEMPLES ================= */
 
   else if(key==='temples'){
-    sections=[
-      ['About this temple',
-       `${name} is part of Goa’s rich Hindu religious and cultural heritage. Visitors can experience the architecture, traditions, rituals and community life associated with the temple.`],
 
-      ['What to expect',
-       'Temple visits may involve prayer areas, ceremonial spaces, festivals and traditional customs. Opening arrangements and ceremonies can vary by day and occasion.']],
+    const known={
+      'Manguesh Temple':
+        'Manguesh Temple at Mardol is one of Goa’s well-known Shaiva temples and is dedicated to Lord Shiva. Its present setting is associated with the movement of the deity’s worship tradition away from the original area during the Portuguese period.',
 
-      ['Visitor etiquette',
-       'Dress respectfully, follow signs and instructions, remove footwear where required, avoid disturbing worshippers and ask before photographing ceremonies or restricted areas.']
-    ];
+      'Shantadurga Temple':
+        'Shantadurga Temple at Kavlem is dedicated to Goddess Shantadurga and is one of the important Hindu pilgrimage sites in Goa. The temple is known for its distinctive Goan temple architecture and active religious traditions.',
+
+      'Mahadev Temple (Tambdi Surla)':
+        'The Mahadev Temple at Tambdi Surla is an important medieval Shiva temple set in Goa’s forested interior. Its stone architecture and remote setting make the journey part of the experience.',
+
+      'Saptakoteshwar Temple':
+        'Saptakoteshwar Temple at Narve is an important Shiva temple with deep connections to Goa’s history. The shrine was associated with the Kadamba period and was later restored under Chhatrapati Shivaji Maharaj. It remains an important religious and cultural site.',
+
+      'Mahalsa Temple (Mardol)':
+        'Mahalsa Temple at Mardol is dedicated to Goddess Mahalsa Narayani and is an important temple in Goa’s religious heritage. Visitors can observe traditional architecture, rituals and a living place of worship.'
+    };
+
+    add('About this temple',
+      known[name] ||
+      `${name} is part of Goa’s living Hindu religious and cultural heritage. Its importance is not only architectural but also connected with local traditions, worship and community life.`
+    );
+
+    add(
+      'What you may see',
+      'Depending on the time of your visit, you may see prayer areas, traditional Goan temple architecture, ceremonial spaces and festival preparations. Religious activity can be particularly busy during important festivals.'
+    );
+
+    add(
+      'Visitor etiquette',
+      'Dress respectfully, remove footwear where requested, follow temple instructions and avoid disturbing worshippers. Ask before taking photographs during ceremonies or in restricted areas.'
+    );
+
+    add(
+      'Before you visit',
+      'Opening arrangements, ceremonies and access to particular areas can vary. If you are travelling specifically for a ritual or festival, check the temple’s current local arrangements before travelling.'
+    );
   }
+
+  /* ================= CHURCHES ================= */
 
   else if(key==='churches'){
-    sections=[
-      ['About this church',
-       `${name} is part of Goa’s distinctive Christian and Indo-Portuguese heritage. Historic churches across Goa preserve important architecture, religious traditions and cultural history.`],
 
-      ['What to expect',
-       'Visitors may encounter active worship, heritage architecture, religious artwork and memorial spaces. Some churches may have separate arrangements for visitors and worshippers.']],
+    const known={
+      'Basilica of Bom Jesus':
+        'The Basilica of Bom Jesus in Old Goa is one of Goa’s best-known historic churches and forms part of the UNESCO-listed Churches and Convents of Goa. It is especially significant for its Baroque architecture and religious heritage.',
 
-      ['Visitor etiquette',
-       'Dress respectfully, keep noise low, avoid disturbing services and follow photography restrictions or instructions from church authorities.']
-    ];
+      'Se Cathedral':
+        'Se Cathedral in Old Goa is one of the major historic churches of Goa and part of the UNESCO World Heritage complex. Its large scale and Portuguese-era architecture make it one of the most important heritage landmarks in Old Goa.',
+
+      'Church of St. Francis of Assisi':
+        'The Church of St. Francis of Assisi is part of the historic Old Goa church complex and is known for its religious art, architecture and connection with Goa’s Portuguese-era heritage.',
+
+      "St. Cajetan's Church":
+        "St. Cajetan’s Church in Old Goa is a notable historic church whose architecture reflects European influences and the religious history of Portuguese Goa."
+    };
+
+    add('About this church',
+      known[name] ||
+      `${name} forms part of Goa’s distinctive Christian and Indo-Portuguese heritage. Historic churches in Goa preserve architecture, religious traditions, artwork and important chapters of the region’s history.`
+    );
+
+    add(
+      'What to expect',
+      'Many churches are active places of worship as well as heritage sites. Visitors may encounter Mass, prayer, religious ceremonies, memorials and heritage architecture.'
+    );
+
+    add(
+      'Visitor etiquette',
+      'Dress respectfully, keep your voice low, do not interrupt services and follow photography restrictions. Remember that an active church is a place of worship, not only a tourist attraction.'
+    );
+
+    add(
+      'Heritage tip',
+      'Take time to observe architectural details, paintings and surrounding heritage structures without touching or climbing historic features.'
+    );
   }
+
+  /* ================= FORTS ================= */
 
   else if(key==='forts'){
-    sections=[
-      ['About this fort',
-       `${name} represents an important part of Goa’s coastal and military history. Goa’s forts were associated with defence, trade routes, political control and strategic coastal positions.`],
 
-      ['What to expect',
-       'Many Goan forts are exposed to sun, wind and uneven terrain. Some structures are partially ruined, so visitors should remain on safe paths and respect restricted areas.']],
+    const known={
+      'Fort Aguada':
+        'Fort Aguada is a major Portuguese-era fortification on the Sinquerim/Candolim peninsula. Built as part of Goa’s coastal defence system, it is known for its strategic position, fort walls and historic water-storage system.',
 
-      ['Visitor tips',
-       'Wear suitable footwear, carry water, avoid climbing unsafe walls and follow signs. Be especially careful near cliffs and exposed coastal edges.']
-    ];
+      'Chapora Fort':
+        'Chapora Fort stands above the Chapora River and is known for its elevated coastal setting and wide views. The present fortification reflects the strategic importance of the area in Goa’s changing political and military history.',
+
+      'Reis Magos Fort':
+        'Reis Magos Fort overlooks the Mandovi River and formed part of Goa’s defensive network. Its position allowed it to help control approaches along the river and toward the old capital area.',
+
+      'Cabo de Rama Fort':
+        'Cabo de Rama Fort occupies a dramatic coastal headland in South Goa. Its location gives visitors views across the coast while also showing why headlands were strategically important for coastal defence.'
+    };
+
+    add('About this fort',
+      known[name] ||
+      `${name} is part of Goa’s military and coastal heritage. Goa’s forts were connected with defence, trade routes, political control and strategically important coastal or river positions.`
+    );
+
+    add(
+      'What to expect',
+      'Expect uneven ground, exposed sun and wind, steps and partially ruined structures at some sites. Some viewpoints are close to steep edges or cliffs.'
+    );
+
+    add(
+      'Visitor safety',
+      'Stay on safe paths, do not climb unstable walls, be careful near cliff edges and carry water during hot weather. Follow any restricted-area signs.'
+    );
+
+    add(
+      'History tip',
+      'Look at the fort’s position as well as its walls. Many Goan forts were deliberately placed to control rivers, harbours, sea approaches and movement through important areas.'
+    );
   }
+
+  /* ================= BEACHES ================= */
 
   else if(key==='beaches'){
-    sections=[
-      ['Beach safety',
-       'Check warning signs and consult lifeguards before entering the sea. Goa Tourism advises visitors to swim only in designated safe areas and to follow lifeguard instructions.']],
 
-      ['Before swimming',
-       'Never ignore red-flag warnings. Avoid entering the sea after consuming alcohol and be particularly careful during rough weather or strong currents.']],
+    add('About this beach',
+      description ||
+      `${name} is one of Goa’s coastal destinations in ${location}.`
+    );
 
-      ['Keep Goa clean',
-       'Do not leave plastic, glass or other waste behind. Keep personal belongings secure and respect turtle nesting and environmentally sensitive areas.']
-    ];
+    add(
+      'Beach safety',
+      'Follow lifeguard instructions and warning flags. Swim only where conditions are considered safe and never enter the sea simply because other people are doing so.'
+    );
+
+    add(
+      'Before swimming',
+      'Avoid swimming after consuming alcohol. Be especially careful during rough weather, strong currents and red-flag conditions.'
+    );
+
+    add(
+      'Keep Goa clean',
+      'Do not leave plastic, glass or other waste behind. Respect environmentally sensitive areas and local restrictions.'
+    );
   }
+
+  /* ================= FOOD ================= */
 
   else if(key==='food'){
-    sections=[
-      ['About this food',
-       `${name} is associated with Goa’s distinctive culinary culture, influenced by local ingredients and generations of Goan cooking traditions.`],
 
-      ['What to know',
-       'Recipes can vary between homes and restaurants. Ask about ingredients if you have allergies or dietary restrictions.'],
+    add('About this food',
+      description ||
+      `${name} is associated with Goa’s distinctive culinary traditions and local ingredients.`
+    );
 
-      ['Where to try',
-       'Look for established local restaurants, traditional eateries and trusted food establishments. Check current opening hours before travelling.']
-    ];
+    add(
+      'What to know',
+      'Recipes vary between homes and restaurants. If you have allergies or dietary restrictions, ask about ingredients before ordering.'
+    );
+
+    add(
+      'Where to try',
+      'Look for established local restaurants and traditional eateries. Check current opening hours and prices before travelling.'
+    );
   }
 
-  else if(key==='museums'){
-    sections=[
-      ['About this museum',
-       `${name} offers visitors an opportunity to learn about Goa’s history, art, culture and heritage.`],
-
-      ['What to expect',
-       'Collections, displays and visiting arrangements can change. Allow enough time to explore the exhibits and follow photography or visitor rules.']
-    ];
-  }
+  /* ================= GENERIC ================= */
 
   else {
-    sections=[
-      ['About this place',
-       intro||`${name} is a place worth exploring in Goa.`],
 
-      ['Visitor information',
-       `Located in ${location}, this destination can be explored as part of a Goa trip. Check current local conditions, opening arrangements and access information before visiting.`],
+    add(
+      'About this place',
+      description ||
+      `${name} is a destination in Goa worth exploring.`
+    );
 
-      ['Travel tip',
-       'Respect the local community, keep the area clean and follow signs and instructions from the responsible authorities.']
-    ];
+    add(
+      'What to expect',
+      `This destination is located in ${location}. Conditions, opening arrangements, access and visitor facilities can change, so check current local information before travelling.`
+    );
+
+    add(
+      'Visitor tip',
+      'Respect local people and property, keep the area clean, follow signs and instructions, and take extra care around roads, water, cliffs and restricted areas.'
+    );
   }
 
-  return {intro,sections};
+  return {
+    intro:description,
+    sections
+  };
 }
-
 
 function openDetail(item){
   if(!item)return;
@@ -517,13 +683,29 @@ function openDetail(item){
 
   $('#detailFacts').innerHTML=html;
 
-  const mapUrl=
-    item.maps_url||
-    item.googleMaps||
-    maps(item.maps_query||item.name||'Goa');
+  const mapButton=$('#detailDirections');
 
-  $('#detailDirections').href=mapUrl;
-  $('#detailDirections').textContent='⌖  Open in Google Maps';
+  const noMap=
+    key==='scams' ||
+    key==='rules' ||
+    key==='emergency';
+
+  if(mapButton){
+
+    if(noMap){
+      mapButton.style.display='none';
+      mapButton.removeAttribute('href');
+    }else{
+      const mapUrl=
+        item.maps_url||
+        item.googleMaps||
+        maps(item.maps_query||item.name||'Goa');
+
+      mapButton.href=mapUrl;
+      mapButton.textContent='⌖  Open in Google Maps';
+      mapButton.style.display='flex';
+    }
+  }
 
   showPage('detailPage');
 }
@@ -608,20 +790,7 @@ $$('.nav-item').forEach(btn=>{
     const nav=btn.dataset.nav;
 
     if(nav==='back'){
-      const detail=$('#detailPage')?.classList.contains('active');
-      const listing=$('#listingPage')?.classList.contains('active');
-      const near=$('#nearPage')?.classList.contains('active');
-
-      if(detail){
-        showPage('listingPage');
-        return;
-      }
-
-      if(listing||near){
-        showPage('homePage');
-        return;
-      }
-
+      goBack();
       return;
     }
 
@@ -629,11 +798,13 @@ $$('.nav-item').forEach(btn=>{
     btn.classList.add('active');
 
     if(nav==='home'){
-      showPage('homePage');
+      pageHistory=['homePage'];
+      showPage('homePage',false);
     }
 
     if(nav==='explore'){
-      showPage('homePage');
+      pageHistory=['homePage'];
+      showPage('homePage',false);
       setTimeout(()=>{
         $('#globalSearch')?.focus();
       },100);

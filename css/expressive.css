@@ -713,3 +713,157 @@ body{
 .list-wrap{
   padding-bottom:140px !important;
 }
+
+
+/* ===== USER REQUESTED INFORMATION UPGRADE ===== */
+
+.detail-info-card{
+  position:relative !important;
+  overflow:hidden !important;
+  padding:19px 18px 19px 20px !important;
+  margin:15px 0 !important;
+  border-radius:24px !important;
+  background:linear-gradient(135deg,#ffffff 0%,#f4fbff 100%) !important;
+  border:1px solid #dceaf4 !important;
+  box-shadow:0 8px 22px rgba(20,65,100,.08) !important;
+}
+
+.detail-info-card::before{
+  content:"" !important;
+  position:absolute !important;
+  left:0 !important;
+  top:0 !important;
+  bottom:0 !important;
+  width:5px !important;
+  background:linear-gradient(180deg,#10b981,#0877f5) !important;
+}
+
+.detail-info-card h3{
+  font-size:18px !important;
+  margin:0 0 8px !important;
+  color:#092d63 !important;
+}
+
+.detail-info-card p{
+  font-size:15px !important;
+  line-height:1.58 !important;
+  color:#536477 !important;
+}
+
+/* SCAM AWARENESS */
+
+.scam-card{
+  background:linear-gradient(135deg,#fff,#fff5f5) !important;
+  border:1px solid #ffdfe1 !important;
+}
+
+.scam-card .special-icon{
+  background:linear-gradient(145deg,#ffe0e4,#fff0ce) !important;
+}
+
+.scam-card .mini-btn{
+  background:#e11d48 !important;
+  color:#fff !important;
+  box-shadow:0 4px 0 #9f1239 !important;
+}
+
+.scam-card .mini-btn:active{
+  transform:translateY(3px) !important;
+  box-shadow:0 1px 0 #9f1239 !important;
+}
+
+/* RULE AWARENESS */
+
+.rule-card{
+  background:linear-gradient(135deg,#fff,#fffaf0) !important;
+  border:1px solid #f6e6bd !important;
+}
+
+.rule-card .special-icon{
+  background:linear-gradient(145deg,#ffe4b5,#fff4d5) !important;
+}
+
+.rule-card .mini-btn{
+  background:#f59e0b !important;
+  color:#fff !important;
+  box-shadow:0 4px 0 #b45309 !important;
+}
+
+/* HIDE MAP COMPLETELY WHEN JS MARKS IT AS NOT APPLICABLE */
+
+#detailDirections[style*="display: none"]{
+  display:none !important;
+}
+
+/* EMERGENCY = ONLY NAME + NUMBER + CALL */
+
+.emergency-service-card{
+  background:#fff !important;
+  border:1px solid #e7edf3 !important;
+}
+
+.emergency-service-card .service-name{
+  font-size:17px !important;
+}
+
+.emergency-service-card .service-number{
+  font-size:21px !important;
+  color:#dc2626 !important;
+}
+
+.emergency-call{
+  background:linear-gradient(180deg,#ef4444,#c81e1e) !important;
+}
+
+/* DETAIL MAP BUTTON */
+
+#detailDirections{
+  background:linear-gradient(180deg,#22c55e 0%,#078a45 100%) !important;
+  border-bottom:5px solid #056b36 !important;
+  box-shadow:
+    0 8px 0 rgba(4,93,47,.16),
+    0 14px 26px rgba(5,130,70,.22) !important;
+  letter-spacing:.1px !important;
+}
+
+#detailDirections:hover{
+  filter:brightness(1.04) !important;
+}
+
+#detailDirections:active{
+  transform:translateY(4px) !important;
+  border-bottom-width:1px !important;
+}
+
+/* BIGGER READABLE DETAIL CONTENT */
+
+.detail-description{
+  font-size:16px !important;
+  line-height:1.55 !important;
+  color:#536477 !important;
+  margin:16px 0 !important;
+}
+
+.detail-tabs{
+  margin:12px 0 4px !important;
+}
+
+.detail-tabs button{
+  border-radius:18px !important;
+  padding:10px 18px !important;
+  font-weight:900 !important;
+  background:#e8f3ff !important;
+  color:#0869b7 !important;
+  border:0 !important;
+}
+
+/* KEEP THE BACK BUTTON EASY TO TAP */
+
+.photo-back,
+#listingBack,
+#detailBack,
+#emergencyBack{
+  min-width:48px !important;
+  min-height:48px !important;
+  border-radius:17px !important;
+}
