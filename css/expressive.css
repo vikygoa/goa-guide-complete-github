@@ -350,3 +350,203 @@ body{
   }
 
 }
+
+
+/* ===== FINAL PREMIUM MOBILE POLISH ===== */
+
+html,body{
+  min-height:100%;
+  overflow-x:hidden;
+}
+
+body{
+  padding-bottom:120px !important;
+}
+
+.app-shell{
+  min-height:100vh !important;
+  padding-bottom:115px !important;
+}
+
+/* LARGE PREMIUM BOTTOM NAV */
+.bottom-nav{
+  position:fixed !important;
+  left:8px !important;
+  right:8px !important;
+  bottom:calc(8px + env(safe-area-inset-bottom)) !important;
+  width:auto !important;
+  height:78px !important;
+  min-height:78px !important;
+  z-index:99999 !important;
+  display:grid !important;
+  grid-template-columns:repeat(4,1fr) !important;
+  align-items:stretch !important;
+  padding:7px !important;
+  border-radius:28px !important;
+  background:rgba(255,255,255,.98) !important;
+  backdrop-filter:blur(18px) !important;
+  -webkit-backdrop-filter:blur(18px) !important;
+  box-shadow:0 10px 35px rgba(15,35,70,.24) !important;
+}
+
+.nav-item{
+  min-width:0 !important;
+  min-height:62px !important;
+  height:62px !important;
+  padding:5px 3px !important;
+  margin:0 !important;
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  justify-content:center !important;
+  gap:3px !important;
+  border:0 !important;
+  border-radius:20px !important;
+  background:transparent !important;
+  color:#64748b !important;
+}
+
+.nav-item span{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  width:42px !important;
+  height:32px !important;
+  font-size:27px !important;
+  line-height:1 !important;
+}
+
+.nav-item small{
+  display:block !important;
+  font-size:12px !important;
+  line-height:15px !important;
+  font-weight:800 !important;
+  white-space:nowrap !important;
+}
+
+.nav-item.active{
+  background:#e3f0ff !important;
+  color:#0877f5 !important;
+}
+
+/* PREMIUM NORMAL LIST CARDS */
+.place-list{
+  padding:3px 0 25px !important;
+}
+
+.place-row{
+  min-height:132px !important;
+  padding:10px !important;
+  gap:12px !important;
+  border-radius:25px !important;
+  overflow:hidden !important;
+}
+
+.place-row .visual-placeholder,
+.place-row .place-thumb{
+  width:86px !important;
+  height:86px !important;
+  min-width:86px !important;
+  flex:0 0 86px !important;
+  border-radius:20px !important;
+}
+
+.place-row .visual-placeholder{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  background:linear-gradient(145deg,#dff5ff,#fff1d8) !important;
+  font-size:34px !important;
+}
+
+.place-row .place-thumb{
+  display:block !important;
+  object-fit:cover !important;
+}
+
+.place-main{
+  min-width:0 !important;
+}
+
+.place-name{
+  font-size:18px !important;
+  font-weight:900 !important;
+  line-height:1.18 !important;
+}
+
+.place-location{
+  font-size:13px !important;
+  margin-top:4px !important;
+  color:#6b7785 !important;
+}
+
+.place-desc{
+  font-size:14px !important;
+  line-height:1.35 !important;
+  margin:7px 0 !important;
+  color:#596777 !important;
+}
+
+.row-actions{
+  gap:8px !important;
+  flex-wrap:wrap !important;
+}
+
+.mini-btn{
+  min-height:42px !important;
+  border-radius:18px !important;
+  padding:10px 16px !important;
+  font-weight:800 !important;
+}
+
+/* RULE / SCAM PREMIUM CARDS */
+.info-card{
+  min-height:122px !important;
+  padding:10px !important;
+  gap:12px !important;
+  border-radius:24px !important;
+  overflow:hidden !important;
+}
+
+.info-card .special-icon{
+  width:92px !important;
+  height:92px !important;
+  min-width:92px !important;
+  flex:0 0 92px !important;
+  border-radius:20px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  font-size:38px !important;
+}
+
+.info-card .special-icon img{
+  width:100% !important;
+  height:100% !important;
+  object-fit:cover !important;
+  border-radius:20px !important;
+}
+
+.info-content{
+  min-width:0 !important;
+}
+
+.info-content .place-name{
+  font-size:17px !important;
+}
+
+.info-content .place-desc{
+  font-size:13px !important;
+}
+
+.service-row{
+  min-height:96px !important;
+  padding:10px !important;
+  border-radius:23px !important;
+}
+
+/* NEVER LET CONTENT HIDE UNDER NAV */
+.home-body,
+.list-wrap{
+  padding-bottom:130px !important;
+}

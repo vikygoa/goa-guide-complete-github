@@ -95,9 +95,14 @@ function renderSpecialCard(item,key){
   const type=key;
 
   if(type==='rules'){
+    const img=getImage(item,key);
     return `
       <article class="info-card rule-card">
-        <div class="special-icon">⚠️</div>
+        <div class="special-icon">
+          ${img
+            ? `<img src="${esc(img)}" alt="" onerror="this.style.display='none';this.parentElement.textContent='⚠️'">`
+            : '⚠️'}
+        </div>
         <div class="info-content">
           <div class="place-name">${esc(item.title||item.name||'Tourist Rule')}</div>
           <p class="place-desc">
@@ -111,9 +116,14 @@ function renderSpecialCard(item,key){
   }
 
   if(type==='scams'){
+    const img=getImage(item,key);
     return `
       <article class="info-card scam-card">
-        <div class="special-icon">🛡️</div>
+        <div class="special-icon">
+          ${img
+            ? `<img src="${esc(img)}" alt="" onerror="this.style.display='none';this.parentElement.textContent='🛡️'">`
+            : '🛡️'}
+        </div>
         <div class="info-content">
           <div class="place-name">${esc(item.title||item.name||'Tourist Scam Alert')}</div>
           <p class="place-desc">
@@ -144,9 +154,17 @@ function renderSpecialCard(item,key){
       </article>`;
   }
 
+  const img=getImage(item,key);
+
   return `
     <article class="place-row">
-      <div class="visual-placeholder">${categoryIcon(key)}</div>
+      ${img
+        ? `<img class="place-thumb"
+                src="${esc(img)}"
+                alt=""
+                loading="lazy"
+                onerror="this.style.display='none'">`
+        : `<div class="visual-placeholder">${categoryIcon(key)}</div>`}
 
       <div class="place-main">
         <div class="place-name">
