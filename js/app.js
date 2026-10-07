@@ -55,17 +55,14 @@ function normalize(raw){
 }
 
 function getImage(item,key){
-  if(item.image && String(item.image).trim()){
+  if(item?.image && String(item.image).trim())
     return String(item.image);
-  }
 
-  if(item.imageUrl && String(item.imageUrl).trim()){
+  if(item?.imageUrl && String(item.imageUrl).trim())
     return String(item.imageUrl);
-  }
 
-  if(item.photo && String(item.photo).trim()){
+  if(item?.photo && String(item.photo).trim())
     return String(item.photo);
-  }
 
   return '';
 }
@@ -137,18 +134,16 @@ function renderSpecialCard(item,key){
   }
 
   if(type==='emergency'){
+    const phone=item.phone||item.number||'';
     return `
-      <article class="service-row">
-        <div class="service-icon">✚</div>
+      <article class="service-row emergency-service-card">
         <div class="service-info">
           <div class="service-name">${esc(item.name||item.title||'Emergency Service')}</div>
-          <div class="service-loc">
-            ${esc(item.description||item.location||'Goa')}
-          </div>
+          <div class="service-number">${esc(phone||'Number unavailable')}</div>
         </div>
         ${
-          item.phone||item.number
-          ? `<a class="call-btn" href="tel:${esc(item.phone||item.number)}">Call</a>`
+          phone
+          ? `<a class="call-btn emergency-call" href="tel:${esc(phone)}">☎ CALL</a>`
           : ''
         }
       </article>`;
@@ -300,8 +295,151 @@ function openListing(key){
   showPage('listingPage');
 }
 
+
+function smartDetail(item,key){
+  const name=item?.name||item?.title||'This Goa destination';
+  const location=item?.location||item?.region||'Goa';
+  const description=item?.description||item?.summary||'';
+
+  let intro=description;
+  let sections=[];
+
+  if(key==='scams'){
+    sections=[
+      ['How this scam works',
+       item.how_it_works||
+       `${name} can involve misleading offers, pressure to make a quick payment, or information that is difficult to verify. Always slow down and verify the person, business, price and payment request before proceeding.`],
+
+      ['Warning signs',
+       item.warning_signs||
+       'Be cautious if someone creates urgency, refuses to provide written details, asks for unusual deposits, requests OTP/UPI PIN information, or gives you information that cannot be independently verified.']],
+
+      ['How to protect yourself',
+       item.protect_yourself||
+       'Use established businesses, confirm prices before paying, keep receipts, avoid sharing OTPs or PINs, and verify important information using an official source.']],
+
+      ['If you are targeted',
+       item.what_to_do||
+       'Do not argue or escalate the situation. Keep evidence such as messages, receipts, phone numbers and payment details. If money has been transferred electronically, contact your bank/payment provider immediately and report suspected fraud to the appropriate authorities.']
+    ];
+  }
+
+  else if(key==='rules'){
+    sections=[
+      ['Why this matters',
+       item.why||
+       'Following local rules protects visitors, residents, wildlife, heritage sites and Goa’s environment. Some violations can also result in fines or other legal consequences.']],
+
+      ['What visitors should do',
+       item.what_to_do||
+       'Follow signs, instructions from authorities and lifeguards, use authorised services, respect local customs and dispose of waste responsibly.']],
+
+      ['What to avoid',
+       item.what_to_avoid||
+       'Avoid behaviour that puts yourself or others at risk, damages public property or the environment, or violates local laws and restrictions.']],
+
+      ['Important',
+       item.safety||
+       'Rules and restrictions can change. When in doubt, check the latest official Goa Tourism or government guidance.']
+    ];
+  }
+
+  else if(key==='temples'){
+    sections=[
+      ['About this temple',
+       `${name} is part of Goa’s rich Hindu religious and cultural heritage. Visitors can experience the architecture, traditions, rituals and community life associated with the temple.`],
+
+      ['What to expect',
+       'Temple visits may involve prayer areas, ceremonial spaces, festivals and traditional customs. Opening arrangements and ceremonies can vary by day and occasion.']],
+
+      ['Visitor etiquette',
+       'Dress respectfully, follow signs and instructions, remove footwear where required, avoid disturbing worshippers and ask before photographing ceremonies or restricted areas.']
+    ];
+  }
+
+  else if(key==='churches'){
+    sections=[
+      ['About this church',
+       `${name} is part of Goa’s distinctive Christian and Indo-Portuguese heritage. Historic churches across Goa preserve important architecture, religious traditions and cultural history.`],
+
+      ['What to expect',
+       'Visitors may encounter active worship, heritage architecture, religious artwork and memorial spaces. Some churches may have separate arrangements for visitors and worshippers.']],
+
+      ['Visitor etiquette',
+       'Dress respectfully, keep noise low, avoid disturbing services and follow photography restrictions or instructions from church authorities.']
+    ];
+  }
+
+  else if(key==='forts'){
+    sections=[
+      ['About this fort',
+       `${name} represents an important part of Goa’s coastal and military history. Goa’s forts were associated with defence, trade routes, political control and strategic coastal positions.`],
+
+      ['What to expect',
+       'Many Goan forts are exposed to sun, wind and uneven terrain. Some structures are partially ruined, so visitors should remain on safe paths and respect restricted areas.']],
+
+      ['Visitor tips',
+       'Wear suitable footwear, carry water, avoid climbing unsafe walls and follow signs. Be especially careful near cliffs and exposed coastal edges.']
+    ];
+  }
+
+  else if(key==='beaches'){
+    sections=[
+      ['Beach safety',
+       'Check warning signs and consult lifeguards before entering the sea. Goa Tourism advises visitors to swim only in designated safe areas and to follow lifeguard instructions.']],
+
+      ['Before swimming',
+       'Never ignore red-flag warnings. Avoid entering the sea after consuming alcohol and be particularly careful during rough weather or strong currents.']],
+
+      ['Keep Goa clean',
+       'Do not leave plastic, glass or other waste behind. Keep personal belongings secure and respect turtle nesting and environmentally sensitive areas.']
+    ];
+  }
+
+  else if(key==='food'){
+    sections=[
+      ['About this food',
+       `${name} is associated with Goa’s distinctive culinary culture, influenced by local ingredients and generations of Goan cooking traditions.`],
+
+      ['What to know',
+       'Recipes can vary between homes and restaurants. Ask about ingredients if you have allergies or dietary restrictions.'],
+
+      ['Where to try',
+       'Look for established local restaurants, traditional eateries and trusted food establishments. Check current opening hours before travelling.']
+    ];
+  }
+
+  else if(key==='museums'){
+    sections=[
+      ['About this museum',
+       `${name} offers visitors an opportunity to learn about Goa’s history, art, culture and heritage.`],
+
+      ['What to expect',
+       'Collections, displays and visiting arrangements can change. Allow enough time to explore the exhibits and follow photography or visitor rules.']
+    ];
+  }
+
+  else {
+    sections=[
+      ['About this place',
+       intro||`${name} is a place worth exploring in Goa.`],
+
+      ['Visitor information',
+       `Located in ${location}, this destination can be explored as part of a Goa trip. Check current local conditions, opening arrangements and access information before visiting.`],
+
+      ['Travel tip',
+       'Respect the local community, keep the area clean and follow signs and instructions from the responsible authorities.']
+    ];
+  }
+
+  return {intro,sections};
+}
+
+
 function openDetail(item){
   if(!item)return;
+
+  const key=item.__key||currentKey;
 
   $('#detailName').textContent=
     item.name||item.title||'Goa';
@@ -312,15 +450,20 @@ function openDetail(item){
     item.area||
     'Goa';
 
+  const info=smartDetail(item,key);
+
   $('#detailDescription').textContent=
+    info.intro||
     item.description||
-    item.explanation||
-    item.summary||
-    item.how_it_works||
-    'Information about this Goa attraction.';
+    'Information about this Goa destination.';
 
   const photo=$('#detailPhoto');
-  const image=getImage(item,currentKey);
+  const photoBox=photo?.parentElement;
+  const image=getImage(item,key);
+
+  if(photoBox){
+    photoBox.classList.remove('no-detail-image');
+  }
 
   if(image){
     photo.src=image;
@@ -328,7 +471,11 @@ function openDetail(item){
   }else{
     photo.removeAttribute('src');
     photo.style.display='none';
-    photo.parentElement.classList.add('no-detail-image');
+
+    if(photoBox){
+      photoBox.classList.add('no-detail-image');
+      photoBox.dataset.icon=categoryIcon(key);
+    }
   }
 
   const facts=[];
@@ -345,16 +492,13 @@ function openDetail(item){
   if(item.rating)
     facts.push(['★','Rating',item.rating]);
 
-  if(item.phone||item.number)
-    facts.push(['☎','Phone',item.phone||item.number]);
-
   if(item.hours)
     facts.push(['🕐','Opening Hours',item.hours]);
 
   if(item.entry_fee)
     facts.push(['🎟️','Entry Fee',item.entry_fee]);
 
-  $('#detailFacts').innerHTML=facts.map(f=>`
+  let html=facts.map(f=>`
     <div class="fact">
       <div class="fact-icon">${f[0]}</div>
       <div>
@@ -364,10 +508,22 @@ function openDetail(item){
     </div>
   `).join('');
 
-  $('#detailDirections').href=
+  html+=info.sections.map(section=>`
+    <section class="detail-info-card">
+      <h3>${esc(section[0])}</h3>
+      <p>${esc(section[1])}</p>
+    </section>
+  `).join('');
+
+  $('#detailFacts').innerHTML=html;
+
+  const mapUrl=
     item.maps_url||
     item.googleMaps||
     maps(item.maps_query||item.name||'Goa');
+
+  $('#detailDirections').href=mapUrl;
+  $('#detailDirections').textContent='⌖  Open in Google Maps';
 
   showPage('detailPage');
 }
@@ -449,12 +605,30 @@ async function openListingFast(key){
 
 $$('.nav-item').forEach(btn=>{
   btn.onclick=()=>{
+    const nav=btn.dataset.nav;
+
+    if(nav==='back'){
+      const detail=$('#detailPage')?.classList.contains('active');
+      const listing=$('#listingPage')?.classList.contains('active');
+      const near=$('#nearPage')?.classList.contains('active');
+
+      if(detail){
+        showPage('listingPage');
+        return;
+      }
+
+      if(listing||near){
+        showPage('homePage');
+        return;
+      }
+
+      return;
+    }
+
     $$('.nav-item').forEach(x=>x.classList.remove('active'));
     btn.classList.add('active');
 
-    const nav=btn.dataset.nav;
-
-    if(nav==='home'||nav==='more'){
+    if(nav==='home'){
       showPage('homePage');
     }
 

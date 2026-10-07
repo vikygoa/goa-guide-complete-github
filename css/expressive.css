@@ -550,3 +550,166 @@ body{
 .list-wrap{
   padding-bottom:130px !important;
 }
+
+
+/* =========================================================
+   PREMIUM DETAIL PAGE
+   ========================================================= */
+
+.detail-photo{
+  position:relative !important;
+  overflow:hidden !important;
+  background:
+    radial-gradient(circle at 20% 20%,rgba(0,190,255,.28),transparent 35%),
+    linear-gradient(145deg,#c9f2ff,#dff7e9 55%,#fff1d5) !important;
+}
+
+.detail-photo.no-detail-image{
+  min-height:260px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+}
+
+.detail-photo.no-detail-image::after{
+  content:attr(data-icon) !important;
+  font-size:100px !important;
+  filter:drop-shadow(0 10px 12px rgba(0,0,0,.12)) !important;
+}
+
+.detail-card{
+  position:relative !important;
+  margin-top:-28px !important;
+  border-radius:34px 34px 0 0 !important;
+  padding:28px 22px 130px !important;
+  box-shadow:0 -12px 35px rgba(15,35,70,.12) !important;
+}
+
+.detail-title-row h1{
+  font-size:30px !important;
+  line-height:1.12 !important;
+  font-weight:950 !important;
+  color:#09245c !important;
+}
+
+.detail-meta{
+  font-size:16px !important;
+  color:#66758a !important;
+}
+
+.detail-info-card{
+  margin:14px 0 !important;
+  padding:17px !important;
+  border-radius:22px !important;
+  background:linear-gradient(135deg,#f5fbff,#ffffff) !important;
+  border:1px solid rgba(30,100,160,.10) !important;
+  box-shadow:0 7px 20px rgba(25,70,110,.08) !important;
+}
+
+.detail-info-card h3{
+  margin:0 0 7px !important;
+  color:#0b3c78 !important;
+  font-size:18px !important;
+  font-weight:900 !important;
+}
+
+.detail-info-card p{
+  margin:0 !important;
+  color:#536273 !important;
+  font-size:15px !important;
+  line-height:1.55 !important;
+}
+
+/* GREEN 3D MAP BUTTON */
+#detailDirections{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  width:100% !important;
+  min-height:56px !important;
+  margin-top:20px !important;
+  border-radius:19px !important;
+  background:linear-gradient(180deg,#22c55e,#079447) !important;
+  color:#fff !important;
+  text-decoration:none !important;
+  font-size:16px !important;
+  font-weight:900 !important;
+  border:0 !important;
+  border-bottom:5px solid #056b36 !important;
+  box-shadow:0 8px 0 rgba(4,93,47,.18),0 13px 25px rgba(5,130,70,.25) !important;
+  transition:transform .15s ease,box-shadow .15s ease !important;
+}
+
+#detailDirections:active{
+  transform:translateY(4px) !important;
+  border-bottom-width:1px !important;
+  box-shadow:0 3px 0 rgba(4,93,47,.15) !important;
+}
+
+/* =========================================================
+   EMERGENCY — SIMPLE CALL ONLY
+   ========================================================= */
+
+.emergency-service-card{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  gap:14px !important;
+  min-height:105px !important;
+  padding:18px !important;
+  border-radius:25px !important;
+  background:linear-gradient(135deg,#ffffff,#f1fbff) !important;
+  border:1px solid rgba(20,120,190,.10) !important;
+  box-shadow:0 7px 22px rgba(20,70,110,.10) !important;
+}
+
+.emergency-service-card .service-info{
+  min-width:0 !important;
+}
+
+.emergency-service-card .service-name{
+  font-size:17px !important;
+  font-weight:900 !important;
+  color:#102b5f !important;
+}
+
+.emergency-service-card .service-number{
+  margin-top:5px !important;
+  font-size:21px !important;
+  font-weight:950 !important;
+  color:#ef4444 !important;
+  letter-spacing:.4px !important;
+}
+
+.emergency-call{
+  flex:0 0 auto !important;
+  min-width:100px !important;
+  min-height:48px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  border-radius:17px !important;
+  background:linear-gradient(180deg,#ff4b4b,#d71920) !important;
+  color:#fff !important;
+  text-decoration:none !important;
+  font-weight:950 !important;
+  border-bottom:4px solid #9d1016 !important;
+  box-shadow:0 7px 15px rgba(210,25,35,.25) !important;
+}
+
+/* BOTTOM BACK BUTTON */
+.bottom-nav .nav-item:last-child{
+  color:#334155 !important;
+}
+
+.bottom-nav .nav-item:last-child span{
+  font-size:34px !important;
+  font-weight:400 !important;
+}
+
+/* KEEP CONTENT ABOVE NAV */
+.detail-card,
+.home-body,
+.list-wrap{
+  padding-bottom:140px !important;
+}
