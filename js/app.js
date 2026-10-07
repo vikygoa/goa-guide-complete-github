@@ -87,7 +87,7 @@ function renderHome(){
   `).join('');
 
   $$('.category-card').forEach(b=>{
-    b.onclick=()=>openListing(b.dataset.key);
+    b.onclick=()=>openListingFast(b.dataset.key);
   });
 }
 
