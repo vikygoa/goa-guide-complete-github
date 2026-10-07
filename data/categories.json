@@ -67,21 +67,21 @@
     "name": "Getting Around Goa",
     "icon": "assets/images/categories/transport.png",
     "description": "Transport and travel information",
-    "dataPath": "data/transport/transport.json"
+    "dataPath": "data/transport.json"
   },
   {
     "id": "restaurants",
     "name": "Restaurants & Food Places",
     "icon": "assets/images/categories/restaurants.png",
     "description": "Restaurants and places to eat",
-    "dataPath": "data/restaurants/restaurants.json"
+    "dataPath": "data/restaurants.json"
   },
   {
     "id": "rentals",
     "name": "Bike & Car Rental",
     "icon": "assets/images/categories/rentals.png",
     "description": "Vehicle rental information",
-    "dataPath": "data/rentals/rentals.json"
+    "dataPath": "data/rentals.json"
   },
   {
     "id": "emergency",
@@ -95,28 +95,28 @@
     "name": "Important Tourist Rules",
     "icon": "assets/images/categories/rules.png",
     "description": "Important rules for tourists",
-    "dataPath": "data/rules/rules.json"
+    "dataPath": "data/rules.json"
   },
   {
     "id": "scams",
     "name": "Tourist Scam Alerts",
     "icon": "assets/images/categories/scams.png",
     "description": "Know common tourist scams",
-    "dataPath": "data/scams/scams.json"
+    "dataPath": "data/scams.json"
   },
   {
     "id": "nightlife",
     "name": "Things To Do / Nightlife",
     "icon": "assets/images/categories/nightlife.png",
     "description": "Things to do and nightlife",
-    "dataPath": "data/nightlife/nightlife.json"
+    "dataPath": "data/nightlife.json"
   },
   {
     "id": "shopping",
     "name": "Goa Shopping Guide",
     "icon": "assets/images/categories/shopping.png",
     "description": "Shopping and local markets",
-    "dataPath": "data/shopping/shopping.json"
+    "dataPath": "data/shopping.json"
   },
   {
     "id": "money",
